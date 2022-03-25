@@ -1106,6 +1106,9 @@ header
 	#job .inner {
 		overflow: hidden;
 	}
+	#job .swiper-slide .btn_job_entry a::before {
+		left: 10px;
+	}
 	#job .swiper-slide {
 		width: 80%;
 		margin-right: 1%;
@@ -2553,9 +2556,6 @@ footer .footer_link a:before {
 #grouphome .main::before {
 	background: var(--dayservice2);
 }
-#grouphome .mv_image01 {
-	/* bottom: -152px; */
-}
 #grouphome .summary {
 	background: var(--grouphome2);
 }
@@ -2643,6 +2643,7 @@ footer .footer_link a:before {
 	}
 	#grouphome .summary {
 		padding-bottom: 64px;
+		margin-top: 40px;
 	}
 	#grouphome .summary::before {
 		width: 100px;

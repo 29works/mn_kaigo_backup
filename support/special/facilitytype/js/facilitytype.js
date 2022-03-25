@@ -26,7 +26,7 @@ window.addEventListener(
 					},
 					slidesPerView: 'auto',
 					centeredSlides: true,
-					spaceBetween: 16,
+          spaceBetween: 16,
 				});
 			} else if (scaleWindowW() >= 767 && swiperjob != undefined) {
 				swiperjob.destroy();
