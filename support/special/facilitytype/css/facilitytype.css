@@ -846,7 +846,9 @@ header
 		z-index: 1;
 		margin-right: 30px;
 	}
-
+	#merit .merit-item .second {
+		padding-top: 0;
+	}
 	#merit .merit-item:first-of-type {
 		margin-left: 20px;
 	}
@@ -871,11 +873,14 @@ header
 		width: auto;
 	}
 	#merit .merit-item p {
-		padding-top: 7px;
+		padding-top: 0;
 		font-size: 15px;
 	}
 	#merit .register {
 		width: 100%;
+	}
+	#merit .merit-item .first {
+		padding-bottom: 0;
 	}
 }
 @media only screen and (max-width: 374px) {
@@ -884,6 +889,9 @@ header
 	}
 	#merit .merit-item {
 		width: 77%;
+	}
+	#merit .first {
+		padding-bottom: 0;
 	}
 }
 /*---------------------------- job ---------------------------*/
@@ -2182,7 +2190,7 @@ footer .footer_link a:before {
 	flex-direction: column;
 	justify-content: space-evenly;
 	margin: 0 auto;
-	padding-right: 0;
+	padding: 0;
 	width: 100%;
 	height: 305px;
 	text-align: center;
@@ -2205,8 +2213,11 @@ footer .footer_link a:before {
 	height: 340px;
 }
 .center-align .mv_image01 {
-	bottom: -252px;
-	right: -72px;
+	bottom: 20px;
+	z-index: 4;
+	width: 327px;
+	left: -58px;
+	right: 0;
 }
 .center-align .mv_image02 {
 	left: -40px;
@@ -2220,14 +2231,42 @@ footer .footer_link a:before {
 	height: 340px;
 }
 .center-align .mv_image04 {
-	width: 150px;
+	width: 524px;
+	height: 300px;
 	background-size: contain;
-	top: 16px;
-	left: -70px;
 	opacity: 0.6;
+	top: -36px;
+	left: 50%;
+	right: 0;
+	z-index: 2;
 }
 .center-align #merit .merit-item h2 {
 	bottom: 81px;
+}
+.square .mv_image01 {
+	position: absolute;
+	width: 23vw;
+	top: 63px;
+	bottom: auto;
+	right: auto;
+	left: 11px;
+	z-index: 4;
+}
+.square .mv_image02 {
+	width: 270px;
+	bottom: -126px;
+	left: -2px;
+	height: 200px;
+}
+.square .mv_image03 {
+	width: 330px;
+	left: -270px;
+	top: -26px;
+}
+.square .mv_image04 {
+	left: -660px;
+	top: auto;
+	bottom: -140px;
 }
 @media only screen and (max-width: 767px) {
 	.center-align .main {
@@ -2237,14 +2276,20 @@ footer .footer_link a:before {
 		height: 333px;
 	}
 	.center-align .mv-title {
-		top: 147px;
+		top: 190px;
 		left: 0;
 	}
 	.center-align .mv_image01 {
-		width: 17vw;
+		/* width: 17vw;
 		bottom: 0;
 		top: 9px;
-		right: -290px;
+		right: -290px; */
+		width: 72vw;
+		top: auto;
+		bottom: 38px;
+		left: -86px;
+		z-index: 0;
+		height: 33vw;
 	}
 	.center-align .mv_image02 {
 		width: 46vw;
@@ -2260,15 +2305,22 @@ footer .footer_link a:before {
 	.center-align .mv_image04 {
 		width: 22vw;
 		left: 8px;
+		width: 44vw;
+		left: auto;
+		top: auto;
+		bottom: 3vw;
+		height: 44vw;
+		z-index: 0;
 	}
 	.center-align .mv-title::before {
-		width: 100%;
+		width: 90%;
 	}
 	.center-align .main .main-inner {
 		flex-direction: column-reverse;
+		padding-top: 0;
 		width: 100%;
 		height: 276px;
-		padding-top: 0;
+		bottom: 0;
 	}
 	.swiper-button-prev:after,
 	.swiper-rtl .swiper-button-next:after,
@@ -2278,6 +2330,41 @@ footer .footer_link a:before {
 	}
 	.center-align #merit .merit-item h2 {
 		bottom: 97px;
+	}
+	.square .main .main-inner {
+		padding-top: 0;
+	}
+	.square .mv_image_wrap {
+		height: 47px;
+	}
+	.square .main::before {
+		bottom: -39px;
+		width: 44vw;
+		height: 44vw;
+		left: 50px;
+	}
+	.square .mv_image02 {
+		width: 40vw;
+		bottom: -87px;
+		left: auto;
+		right: 20px;
+		height: 26vw;
+	}
+	.square .mv_image04 {
+		left: auto;
+		right: 90px;
+		width: 22vw;
+		top: -50px;
+	}
+	.square .mv_image03 {
+		right: auto;
+		left: 20px;
+	}
+}
+@media only screen and (max-width: 490px) {
+	.center-align .main .main-inner {
+		bottom: 41px;
+		height: 218px;
 	}
 }
 /* page-top */
@@ -2315,6 +2402,7 @@ footer .footer_link a:before {
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+
 @media only screen and (max-width: 767px) {
 	#page-top {
 		bottom: 98px;
@@ -2628,7 +2716,7 @@ footer .footer_link a:before {
 @media only screen and (max-width: 767px) {
 	#paidnursing .mv_image_wrap {
 		width: 100%;
-		bottom: -74px;
+		bottom: -122px;
 	}
 	#paidnursing .summary .text {
 		width: 100%;
@@ -2660,6 +2748,11 @@ footer .footer_link a:before {
 	}
 }
 
+@media only screen and (max-width: 374px) {
+	#paidnursing .mv_image_wrap {
+		bottom: -74px;
+	}
+}
 /* 介護老人保健施設 */
 #longterm .main .main-wrap,
 #longterm .localNav a:hover,
@@ -2669,13 +2762,6 @@ footer .footer_link a:before {
 }
 #longterm .main::before {
 	background: var(--longterm2);
-}
-#longterm .mv_image01 {
-	bottom: auto;
-	top: -69px;
-	right: 79px;
-	left: auto;
-	position: absolute;
 }
 #longterm .summary {
 	background: var(--longterm2);
@@ -2709,22 +2795,12 @@ footer .footer_link a:before {
 }
 #longterm .mv_image02 {
 	background-image: url(/assets/images/support/special/facilitytype/mv_image02_longterm.png);
-	width: 270px;
-	bottom: -126px;
-	left: -2px;
-	height: 200px;
 }
 #longterm .mv_image03 {
 	background-image: url(/assets/images/support/special/facilitytype/mv_image03_longterm.png);
-	width: 330px;
-	left: -270px;
-	top: -26px;
 }
 #longterm .mv_image04 {
 	background-image: url(/assets/images/support/special/facilitytype/mv_image04_longterm.png);
-	left: -660px;
-	top: auto;
-	bottom: -140px;
 }
 #longterm .localNav li::after {
 	border: solid 1px var(--longterm);
@@ -2765,31 +2841,9 @@ footer .footer_link a:before {
 	#longterm .mv_image03 {
 		position: absolute;
 	}
-
-	#longterm .main::before {
-		bottom: -40px;
-		width: 30vw;
-		left: 50px;
-	}
-	#longterm .mv_image02 {
-		width: 40vw;
-		bottom: -251px;
-		left: auto;
-		right: 20px;
-	}
-	#longterm .mv_image03 {
-		right: auto;
-		left: 20px;
-	}
-	#longterm .mv_image04 {
-		left: auto;
-		right: 90px;
-		width: 25vw;
-		top: -20px;
-	}
 	#longterm .summary-image {
 		width: 126px;
-		left: -76px;
+		left: -64px;
 		position: relative;
 	}
 	#longterm #job .content_ttl::before {
@@ -2811,7 +2865,7 @@ footer .footer_link a:before {
 	#longterm .summary::before {
 		width: 135px;
 		top: -10px;
-		right: 48px;
+		right: 15px;
 	}
 }
 
@@ -2843,7 +2897,7 @@ footer .footer_link a:before {
 	padding-top: 0;
 }
 #specialnursing .main .main-inner {
-	height: 180px;
+	height: 177px;
 	z-index: auto;
 }
 #specialnursing .main::before {
@@ -2882,11 +2936,6 @@ footer .footer_link a:before {
 }
 #specialnursing .mv_image01 {
 	background-image: url(/assets/images/support/special/facilitytype/mv_image01_specialnursing.png);
-	bottom: 20px;
-	z-index: 4;
-	width: 327px;
-	left: -58px;
-	right: 0;
 }
 #specialnursing .mv_image02 {
 	background-image: url(/assets/images/support/special/facilitytype/mv_image02_specialnursing.png);
@@ -2903,13 +2952,7 @@ footer .footer_link a:before {
 }
 #specialnursing .mv_image04 {
 	background-image: url(/assets/images/support/special/facilitytype/mv_image04_specialnursing.png);
-	width: 524px;
-	left: 50%;
-	right: 0;
-	z-index: 2;
 	opacity: 1;
-	height: 300px;
-	top: -49px;
 }
 #specialnursing .localNav li::after {
 	border: solid 1px var(--specialnursing);
@@ -2947,17 +2990,15 @@ footer .footer_link a:before {
 #specialnursing #merit .merit-item .second {
 	height: 217px;
 }
-
 #specialnursing #job .job-tag {
 	background-color: var(--specialnursing4);
 }
-
 @media only screen and (max-width: 767px) {
 	#specialnursing .mv-title::before {
 		z-index: 1;
 	}
 	#specialnursing .main {
-		height: 426px;
+		height: 454px;
 	}
 	#specialnursing #sineCanvas {
 		z-index: 0;
@@ -2966,48 +3007,59 @@ footer .footer_link a:before {
 		width: 70%;
 	}
 	#specialnursing .mv-title {
-		top: 107px;
+		top: 101px;
 		z-index: auto;
 	}
 	#specialnursing .main .main-inner .register {
 		position: relative;
-		bottom: -84px;
+		bottom: -112px;
 	}
 	#specialnursing .mv_image01 {
-		width: 62vw;
-		top: 140px;
+		/* width: 77vw;
+		top: -70px;
 		bottom: 0;
-		left: -5px;
+		left: -72px;
 		z-index: 0;
-		height: 62vw;
+		height: 62vw; */
 	}
 	#specialnursing .mv_image02 {
-		left: auto;
-		width: 212px;
-		bottom: -309px;
+		left: 0;
+		width: 100%;
+		bottom: -217px;
 		z-index: 2;
-		height: 175px;
+		height: 163px;
 		position: absolute;
-		right: 25%;
+		right: 0;
+		background-position: calc(50% - 31px) 0;
+	}
+	.mv_imagee.mv_image02 {
+		width: 38vw;
+		height: 29vw;
+	}
+	#specialnursing #merit .merit-item .second {
+		height: 209px;
 	}
 	#specialnursing .mv_image03 {
-		width: 66px;
+		width: 100%;
 		top: auto;
-		right: 30%;
+		right: 0;
 		z-index: 1;
-		height: 144px;
-		bottom: -302px;
+		height: 165px;
+		bottom: -217px;
+		background-position: calc(50% + 70px) 0;
+		left: 0;
 	}
 	#specialnursing .mv_image04 {
-		width: 49vw;
-		left: auto;
-		top: 108px;
-		height: 49vw;
-		z-index: 0;
+		/* width: 49vw; */
+		/* left: auto; */
+		/* top: -103px; */
+		/* height: 49vw; */
+		/* z-index: 0; */
 	}
 	#specialnursing .mv_image_wrap {
 		width: 100%;
 		z-index: auto;
+		text-align: center;
 	}
 	#specialnursing .summary .text p {
 		padding: 11px 21px 77px;
@@ -3034,6 +3086,9 @@ footer .footer_link a:before {
 	#specialnursing .main::before {
 		display: none;
 	}
+	#specialnursing .main .main-inner .copy {
+		background-color: #ffffffc2;
+	}
 }
 
 /* 介護老人保健施設 */
@@ -3045,13 +3100,6 @@ footer .footer_link a:before {
 }
 #homevisit .main::before {
 	background: var(--homevisit2);
-}
-#homevisit .mv_image01 {
-	position: absolute;
-	width: 115px;
-	top: 167px;
-	right: 210px;
-	bottom: auto;
 }
 #homevisit .summary {
 	background: var(--homevisit2);
@@ -3087,21 +3135,12 @@ footer .footer_link a:before {
 }
 #homevisit .mv_image02 {
 	background-image: url(/assets/images/support/special/facilitytype/mv_image02_homevisit.png);
-	width: 236px;
-	bottom: -120px;
-	left: 0;
 }
 #homevisit .mv_image03 {
 	background-image: url(/assets/images/support/special/facilitytype/mv_image03_homevisit.png);
-	width: 326px;
-	left: -265px;
-	top: -26px;
 }
 #homevisit .mv_image04 {
-	background-image: url(/assets/images/support/special/facilitytype/mv_image04_homevisit.png);
-	left: -660px;
-	top: auto;
-	bottom: -140px;
+	opacity: 0.8;
 }
 #homevisit .localNav li::after {
 	border: solid 1px var(--homevisit);
@@ -3151,29 +3190,11 @@ footer .footer_link a:before {
 		width: 43vw;
 		height: 43vw;
 		left: 50px;
-		bottom: 12px;
-	}
-	#homevisit .mv_image01 {
-		width: 23vw;
-		top: -22px;
-		right: 81px;
-		z-index: 4;
-	}
-	#homevisit .mv_image02 {
-		width: 40vw;
-		bottom: -251px;
-		left: auto;
-		right: 20px;
-	}
-	#homevisit .mv_image03 {
-		right: auto;
-		left: 20px;
+		bottom: 46px;
 	}
 	#homevisit .mv_image04 {
-		left: auto;
-		right: 90px;
-		width: 25vw;
-		top: -20px;
+		right: 65px;
+		top: -25px;
 	}
 	#homevisit .summary-image {
 		width: 126px;
