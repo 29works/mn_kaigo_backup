@@ -1015,9 +1015,6 @@ header
 		height: auto;
 		margin-bottom: 0;
 	}
-	#job .jobofferlist .swiper-container {
-		/* padding: 0 0 50px 0; */
-	}
 	#job .jobofferlist .swiper-pagination-bullet-active {
 		color: rgba(219, 36, 31, 0.9);
 	}
