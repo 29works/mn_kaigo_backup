@@ -3034,17 +3034,14 @@ footer .footer_link a:before {
 		height: 62vw; */
 	}
 	#specialnursing .mv_image02 {
+		position: absolute;
+		width: 38vw;
 		left: 0;
-		width: 100%;
+		/* width: 100%; */
 		bottom: -217px;
 		z-index: 2;
-		height: 163px;
-		position: absolute;
 		right: 0;
 		background-position: calc(50% - 31px) 0;
-	}
-	.mv_image.mv_image02 {
-		width: 38vw;
 		height: 29vw;
 	}
 	#specialnursing #merit .merit-item .second {
