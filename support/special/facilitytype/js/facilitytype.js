@@ -1,4 +1,32 @@
-// job swiper-slide
+// voice swiper-slide
+  $(function () {
+    var swipervoice = new Swiper('.voice-container', {
+      loop: true,
+      slidesPerView: 3.5,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+      centeredSlides: true,
+      spaceBetween: 20,
+      breakpoints: {
+        640: {
+          slidesPerView: 1.5,
+          spaceBetween: 16,
+        },
+      },
+    });
+  });
+
+  // job swiper-slide
 var scaleWindowW = function () {
 	var w = window.innerWidth || document.documentElement.clientWidth || 0;
 	return w;
