@@ -848,9 +848,6 @@ header
 		z-index: 1;
 		margin-right: 30px;
 	}
-	#merit .merit-item .second {
-		padding-top: 0;
-	}
 	#merit .merit-item:first-of-type {
 		margin-left: 20px;
 	}
@@ -1564,7 +1561,7 @@ header
 @media only screen and (max-width: 767px) {
 	#voice h2 {
 		padding-top: 105px;
-		font-size: 6vw;
+		font-size: 5.5vw;
 	}
 	#voice .inner {
 		width: 100%;
@@ -2645,7 +2642,7 @@ footer .footer_link a:before {
 		margin: 0 auto 100px;
 	}
 	#grouphome .summary {
-		padding-bottom: 30px;
+		padding-bottom: 64px;
 	}
 	#grouphome .summary::before {
 		width: 100px;
@@ -2653,10 +2650,11 @@ footer .footer_link a:before {
 		right: 30px;
 	}
 	#grouphome .summary-image {
-		width: 100%;
+		width: 80%;
+		margin: -20px 0 0;
 	}
 	#grouphome #merit .merit-item .second {
-		height: 230px;
+		height: 180px;
 	}
 	#grouphome h2 .service-name {
 		width: 55vw;
