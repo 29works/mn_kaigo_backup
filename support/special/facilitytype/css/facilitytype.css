@@ -2596,6 +2596,7 @@ footer .footer_link a:before {
 @media only screen and (max-width: 767px) {
 	#grouphome #merit h2 {
 		margin: 70px auto 12px;
+		bottom: 32px;
 	}
 	#grouphome .mv_image02 {
 		width: 54vw;
@@ -2629,6 +2630,12 @@ footer .footer_link a:before {
 	}
 	#grouphome .summary-image {
 		width: 100%;
+	}
+	#grouphome #merit .merit-item .second {
+		height: 230px;
+	}
+	#grouphome h2 .service-name {
+		width: 55vw;
 	}
 }
 
