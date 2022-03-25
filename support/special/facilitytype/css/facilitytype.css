@@ -94,6 +94,9 @@ h2 span {
 	body {
 		overflow: hidden;
 	}
+	h2 {
+		font-size: 6vw;
+	}
 }
 /*---------------------------- CTA ----------------------------*/
 .btn_job_entry {
@@ -1072,7 +1075,7 @@ header
 	position: absolute;
 	width: 24px;
 	height: 23px;
-	background: center / 17px no-repeat url(/r/img/icon_fee.png);
+	background: center / 17px no-repeat url(/mn_kaigoshoku/r/img/icon_fee.png);
 	top: 5px;
 	left: 0;
 }
@@ -2358,14 +2361,14 @@ footer .footer_link a:before {
 		height: 47px;
 	}
 	.square .main::before {
-		bottom: -39px;
+		bottom: -25px;
 		width: 44vw;
 		height: 44vw;
 		left: 50px;
 	}
 	.square .mv_image02 {
 		width: 40vw;
-		bottom: -87px;
+		bottom: -143px;
 		left: auto;
 		right: 20px;
 		height: 26vw;
@@ -2885,7 +2888,7 @@ footer .footer_link a:before {
 		left: 0;
 	}
 	#longterm #voice .content_ttl::before {
-		left: 26%;
+		left: 16%;
 		top: 48px;
 		right: 50%;
 		width: 100%;
