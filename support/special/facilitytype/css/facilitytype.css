@@ -991,7 +991,7 @@ header
 	background: 29% bottom / cover no-repeat url(/assets/images/support/special/opening/img_foboffer_05.png);
 }
 #job .swiper-slide:nth-child(6) .job-img {
-	background: right/ cover no-repeat url(/assets/images/support/special/facilitytype/img_foboffer_07.png);
+	background: right/ cover no-repeat url(/assets/images/support/special/facilitytype/img_joboffer_07.png);
 }
 #job .swiper-slide .btn_job_entry a::before {
 	content: '';
@@ -2140,6 +2140,9 @@ footer .footer_link a:before {
 	left: 10px;
 	z-index: 999;
 }
+.center-align .main .main-inner {
+	height: 165px;
+}
 .center-align .mv-title::before {
 	position: absolute;
 	content: '';
@@ -2829,15 +2832,16 @@ footer .footer_link a:before {
 }
 #specialnursing .mv_image02 {
 	background-image: url(/assets/images/support/special/facilitytype/mv_image02_specialnursing.png);
-	width: 510px;
-	bottom: 193px;
-	left: -69px;
+	width: 543px;
+	bottom: 158px;
+	left: -11px;
+	height: 290px;
 }
 #specialnursing .mv_image03 {
 	background-image: url(/assets/images/support/special/facilitytype/mv_image03_specialnursing.png);
-	width: 174px;
+	width: 186px;
 	right: 88px;
-	top: 10px;
+	top: 24px;
 }
 #specialnursing .mv_image04 {
 	background-image: url(/assets/images/support/special/facilitytype/mv_image04_specialnursing.png);
@@ -2987,8 +2991,8 @@ footer .footer_link a:before {
 #homevisit .mv_image01 {
 	position: absolute;
 	width: 115px;
-	top: 17px;
-	right: 89px;
+	top: 167px;
+	right: 210px;
 	bottom: auto;
 }
 #homevisit .summary {
