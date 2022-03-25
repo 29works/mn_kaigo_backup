@@ -61,3 +61,32 @@
     </li>
   </ul>
 </div>
+<script>
+  // voice swiper-slide
+  $(function () {
+    var swipervoice = new Swiper('.voice-container', {
+      loop: true,
+      slidesPerView: 1.5,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+      centeredSlides: true,
+      spaceBetween: 20,
+      breakpoints: {
+        640: {
+          slidesPerView: 3.5,
+          spaceBetween: 16,
+        },
+      },
+    });
+  });
+</script>
