@@ -2627,6 +2627,9 @@ footer .footer_link a:before {
 		bottom: -94px;
 		right: 30px;
 	}
+	#grouphome .summary-image {
+		width: 100%;
+	}
 }
 
 /* 有料老人ホーム */
