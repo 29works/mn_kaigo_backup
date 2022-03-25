@@ -332,7 +332,7 @@ header
 	left: -13px;
 	width: 19px;
 	height: 30px;
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/mv_ttl_deco.svg);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/mv_ttl_deco.svg);
 }
 .main .main-inner .copy::after,
 #merit h2.cv::after {
@@ -383,7 +383,7 @@ header
 	right: -188px;
 	height: 170px;
 	background-repeat: no-repeat;
-	background-image: url(../assets/images/support/special/facilitytype/mv_image01.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image01.png);
 	width: 170px;
 	position: relative;
 	bottom: -176px;
@@ -417,12 +417,12 @@ header
 	width: 186px;
 	height: 168px;
 	z-index: 3;
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/mv_image04.png);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/mv_image04.png);
 }
 @media only screen and (max-width: 767px) {
 	.main {
 		min-height: 1px;
-		background: url(../assets/images/support/kaigofukushi/main_bg_sp.jpg) center top no-repeat;
+		background: url(../../assets/images/support/kaigofukushi/main_bg_sp.jpg) center top no-repeat;
 		background-size: 100%;
 
 		height: 623px;
@@ -735,7 +735,7 @@ header
 	width: 60px;
 	text-align: center;
 	color: white;
-	background: center / 58px no-repeat url(../assets/images/support/special/facilitytype/group_merit_deco.png);
+	background: center / 58px no-repeat url(../../assets/images/support/special/facilitytype/group_merit_deco.png);
 	font-size: 20px;
 	height: 55px;
 	padding-top: 19px;
@@ -818,7 +818,7 @@ header
 }
 #service .register {
 	width: 800px;
-	background: 158px 14px / 483px no-repeat url(../assets/images/support/special/facilitytype/register_bg.png);
+	background: 158px 14px / 483px no-repeat url(../../assets/images/support/special/facilitytype/register_bg.png);
 	margin: 0 auto;
 }
 @media only screen and (max-width: 767px) {
@@ -905,7 +905,7 @@ header
 	overflow: inherit;
 	width: 831px;
 	height: 189px;
-	background-image: url(../assets/images/support/special/facilitytype/job_illu04.svg), url(../assets/images/support/special/facilitytype/job_illu03.svg);
+	background-image: url(../../assets/images/support/special/facilitytype/job_illu04.svg), url(../../assets/images/support/special/facilitytype/job_illu03.svg);
 	background-position: left bottom 10px, right bottom 10px;
 	background-size: 150px;
 	background-repeat: no-repeat, no-repeat;
@@ -1011,22 +1011,22 @@ header
 	border-radius: 16px;
 }
 #job .swiper-slide:first-of-type .job-img {
-	background: center / cover no-repeat url(../assets/images/support/special/opening/img_foboffer_04.png);
+	background: center / cover no-repeat url(../../assets/images/support/special/opening/img_foboffer_04.png);
 }
 #job .swiper-slide:nth-child(2) .job-img {
-	background: 72% bottom / cover no-repeat url(../assets/images/support/special/opening/img_foboffer_02.png);
+	background: 72% bottom / cover no-repeat url(../../assets/images/support/special/opening/img_foboffer_02.png);
 }
 #job .swiper-slide:nth-child(3) .job-img {
-	background: center / cover no-repeat url(../assets/images/support/special/opening/img_foboffer_01.png);
+	background: center / cover no-repeat url(../../assets/images/support/special/opening/img_foboffer_01.png);
 }
 #job .swiper-slide:nth-child(4) .job-img {
-	background: 20% bottom / cover no-repeat url(../assets/images/support/special/opening/img_foboffer_03.png);
+	background: 20% bottom / cover no-repeat url(../../assets/images/support/special/opening/img_foboffer_03.png);
 }
 #job .swiper-slide:nth-child(5) .job-img {
-	background: 29% bottom / cover no-repeat url(../assets/images/support/special/opening/img_foboffer_05.png);
+	background: 29% bottom / cover no-repeat url(../../assets/images/support/special/opening/img_foboffer_05.png);
 }
 #job .swiper-slide:nth-child(6) .job-img {
-	background: right/ cover no-repeat url(../assets/images/support/special/facilitytype/img_joboffer_07.png);
+	background: right/ cover no-repeat url(../../assets/images/support/special/facilitytype/img_joboffer_07.png);
 }
 #job .swiper-slide .btn_job_entry a::before {
 	content: '';
@@ -1039,15 +1039,15 @@ header
 }
 #job .swiper-slide:nth-of-type(1) .btn_job_entry a::before,
 #job .swiper-slide:nth-of-type(4) .btn_job_entry a::before {
-	background: right/ cover no-repeat url(../assets/images/support/special/facilitytype/job_illu01.svg);
+	background: right/ cover no-repeat url(../../assets/images/support/special/facilitytype/job_illu01.svg);
 }
 #job .swiper-slide:nth-of-type(2) .btn_job_entry a::before,
 #job .swiper-slide:nth-of-type(5) .btn_job_entry a::before {
-	background: right/ cover no-repeat url(../assets/images/support/special/facilitytype/job_illu02.svg);
+	background: right/ cover no-repeat url(../../assets/images/support/special/facilitytype/job_illu02.svg);
 }
 #job .swiper-slide:nth-of-type(3) .btn_job_entry a::before,
 #job .swiper-slide:nth-of-type(6) .btn_job_entry a::before {
-	background: right/ cover no-repeat url(../assets/images/support/special/facilitytype/job_illu03.svg);
+	background: right/ cover no-repeat url(../../assets/images/support/special/facilitytype/job_illu03.svg);
 }
 #job .job-tag {
 	display: inline-block;
@@ -1122,10 +1122,10 @@ header
 		height: 65px;
 	}
 	#job .jobofferlist .swiper-button-prev {
-		background-image: url(../assets/images/support/special/opening/img_prev.png);
+		background-image: url(../../assets/images/support/special/opening/img_prev.png);
 	}
 	#job .jobofferlist .swiper-button-next {
-		background-image: url(../assets/images/support/special/opening/img_next.png);
+		background-image: url(../../assets/images/support/special/opening/img_next.png);
 	}
 	#job .swiper-slide h3 {
 		font-size: 18px;
@@ -1168,7 +1168,7 @@ header
 	position: absolute;
 	height: 138px;
 	bottom: -1px;
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/service_illu_pc.png);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/service_illu_pc.png);
 	width: 846px;
 	left: 0;
 	right: 0;
@@ -1201,7 +1201,7 @@ header
 	position: absolute;
 	width: 164px;
 	height: 151px;
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/service_illust.png);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/service_illust.png);
 	top: -68px;
 	left: -6px;
 }
@@ -1294,22 +1294,22 @@ header
 #service .best {
 	width: 40px;
 	height: 40px;
-	content: url(../assets/images/support/special/facilitytype/best.svg);
+	content: url(../../assets/images/support/special/facilitytype/best.svg);
 }
 #service .so-so {
 	width: 40px;
 	height: 40px;
-	content: url(../assets/images/support/special/facilitytype/so-so.svg);
+	content: url(../../assets/images/support/special/facilitytype/so-so.svg);
 }
 #service .bad {
 	width: 40px;
 	height: 40px;
-	content: url(../assets/images/support/special/facilitytype/bad.svg);
+	content: url(../../assets/images/support/special/facilitytype/bad.svg);
 }
 #service .cant {
 	width: 40px;
 	height: 40px;
-	content: url(../assets/images/support/special/facilitytype/cant.svg);
+	content: url(../../assets/images/support/special/facilitytype/cant.svg);
 }
 #service .register {
 	margin-top: 30px;
@@ -1328,7 +1328,7 @@ header
 		display: none;
 	}
 	#service::before {
-		background: center bottom / contain no-repeat url(../assets/images/support/special/facilitytype/service_illu_sp.png);
+		background: center bottom / contain no-repeat url(../../assets/images/support/special/facilitytype/service_illu_sp.png);
 		width: 100%;
 		left: 0;
 	}
@@ -1378,7 +1378,7 @@ header
 /*---------------------------- voice ---------------------------*/
 #voice {
 	position: relative;
-	background: center 40% / cover no-repeat url('../assets/images/support/special/facilitytype/voice_bg.jpg');
+	background: center 40% / cover no-repeat url('../../assets/images/support/special/facilitytype/voice_bg.jpg');
 	backdrop-filter: sepia(90%);
 	z-index: 0;
 }
@@ -1694,7 +1694,7 @@ header
 		padding-top: 60px;
 	}
 	#flow::after {
-		background-image: url(../assets/images/support/special/opening/bg_wave-bl_sp.png);
+		background-image: url(../../assets/images/support/special/opening/bg_wave-bl_sp.png);
 		background-size: contain;
 		background-repeat: no-repeat;
 		top: -10px;
@@ -1794,7 +1794,7 @@ header
 
 #info .contact {
 	position: relative;
-	background: center / cover no-repeat url(../assets/images/support/special/facilitytype/info_bg.png);
+	background: center / cover no-repeat url(../../assets/images/support/special/facilitytype/info_bg.png);
 	backdrop-filter: sepia(90%);
 	color: white;
 	z-index: 0;
@@ -1900,7 +1900,7 @@ footer {
 		border-top: 0.5px solid #ffffff91;
 	}
 	#info .contact {
-		background: center / cover no-repeat url(../assets/images/support/special/facilitytype/info_bg_sp.png);
+		background: center / cover no-repeat url(../../assets/images/support/special/facilitytype/info_bg_sp.png);
 	}
 }
 footer .inner {
@@ -2467,17 +2467,17 @@ footer .footer_link a:before {
 	background: linear-gradient(#fff0 50%, #fff0 60%, #9fe7ff 60%);
 }
 #dayservice .summary::before {
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/dayservice_summary02.png);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/dayservice_summary02.png);
 }
 #dayservice #merit .merit-item h3::before,
 #dayservice #merit .merit-item h3 span {
 	color: var(--dayservice3);
 }
 #dayservice .mv_image02 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image02.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image02.png);
 }
 #dayservice .mv_image03 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image03.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image03.png);
 }
 #dayservice .localNav li::after {
 	border: solid 1px var(--dayservice);
@@ -2491,13 +2491,13 @@ footer .footer_link a:before {
 	right: 0;
 	width: 174px;
 	height: 37px;
-	background: url(../assets/images/support/special/facilitytype/dayservice_ttl.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/dayservice_ttl.svg) no-repeat;
 	left: 316px;
 }
 #dayservice #voice .content_ttl::before {
 	width: 211px;
 	height: 40px;
-	background: url(../assets/images/support/special/facilitytype/dayservice_ttl_invert.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/dayservice_ttl_invert.svg) no-repeat;
 	top: 86px;
 	left: 395px;
 }
@@ -2554,18 +2554,18 @@ footer .footer_link a:before {
 	background: linear-gradient(#fff0 50%, #fff0 60%, #9fe7ff 60%);
 }
 #grouphome .mv_image02 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image02_grouphome.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image02_grouphome.png);
 	left: -140px;
 }
 #grouphome .mv_image03 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image03_grouphome.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image03_grouphome.png);
 	width: 241px;
 }
 #grouphome .localNav li::after {
 	border: solid 1px var(--grouphome);
 }
 #grouphome .summary::before {
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/grouphome_summary02.png);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/grouphome_summary02.png);
 	bottom: -42px;
 }
 #grouphome #job .content_ttl::before,
@@ -2577,13 +2577,13 @@ footer .footer_link a:before {
 	right: 0;
 	width: 237px;
 	height: 42px;
-	background: url(../assets/images/support/special/facilitytype/grouphome_ttl.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/grouphome_ttl.svg) no-repeat;
 	left: 285px;
 }
 #grouphome #voice .content_ttl::before {
 	width: 211px;
 	height: 40px;
-	background: url(../assets/images/support/special/facilitytype/grouphome_ttl_invert.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/grouphome_ttl_invert.svg) no-repeat;
 	top: 86px;
 	left: 395px;
 }
@@ -2631,7 +2631,7 @@ footer .footer_link a:before {
 
 /* 有料老人ホーム */
 #paidnursing .mv-title::before {
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/main_title_grouphome_deco.png);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/main_title_grouphome_deco.png);
 }
 #paidnursing .mv_image_wrap {
 	width: 800px;
@@ -2669,10 +2669,10 @@ footer .footer_link a:before {
 	background: linear-gradient(#fff0 50%, #fff0 60%, #9fe7ff 60%);
 }
 #paidnursing .mv_image02 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image02_paidnursing.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image02_paidnursing.png);
 }
 #paidnursing .mv_image03 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image03_paidnursing.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image03_paidnursing.png);
 }
 #paidnursing .localNav li::after {
 	border: solid 1px var(--paidnursing);
@@ -2681,7 +2681,7 @@ footer .footer_link a:before {
 	width: 60%;
 }
 #paidnursing .summary::before {
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/paidnursing_summary02.png);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/paidnursing_summary02.png);
 	bottom: 115px;
 }
 #paidnursing #job .content_ttl::before,
@@ -2693,13 +2693,13 @@ footer .footer_link a:before {
 	right: 0;
 	width: 237px;
 	height: 42px;
-	background: url(../assets/images/support/special/facilitytype/paidnursing_ttl.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/paidnursing_ttl.svg) no-repeat;
 	left: 285px;
 }
 #paidnursing #voice .content_ttl::before {
 	width: 211px;
 	height: 40px;
-	background: url(../assets/images/support/special/facilitytype/paidnursing_ttl_invert.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/paidnursing_ttl_invert.svg) no-repeat;
 	top: 86px;
 	left: 395px;
 }
@@ -2791,19 +2791,19 @@ footer .footer_link a:before {
 	background: linear-gradient(#fff0 50%, #fff0 60%, #9fe7ff 60%);
 }
 #longterm .mv_image02 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image02_longterm.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image02_longterm.png);
 }
 #longterm .mv_image03 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image03_longterm.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image03_longterm.png);
 }
 #longterm .mv_image04 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image04_longterm.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image04_longterm.png);
 }
 #longterm .localNav li::after {
 	border: solid 1px var(--longterm);
 }
 #longterm .summary::before {
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/longterm_summary02.png);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/longterm_summary02.png);
 	bottom: 18px;
 	right: 27px;
 }
@@ -2816,7 +2816,7 @@ footer .footer_link a:before {
 	right: 0;
 	width: 298px;
 	height: 42px;
-	background: url(../assets/images/support/special/facilitytype/longterm_ttl.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/longterm_ttl.svg) no-repeat;
 	left: 265px;
 }
 #longterm #job .job-tag {
@@ -2825,7 +2825,7 @@ footer .footer_link a:before {
 #longterm #voice .content_ttl::before {
 	width: 211px;
 	height: 40px;
-	background: url(../assets/images/support/special/facilitytype/longterm_ttl_invert.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/longterm_ttl_invert.svg) no-repeat;
 	top: 86px;
 	left: 395px;
 }
@@ -2880,7 +2880,7 @@ footer .footer_link a:before {
 	bottom: 0;
 }
 #specialnursing .mv-title::before {
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/main_title_specialnursing_deco.png);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/main_title_specialnursing_deco.png);
 }
 #specialnursing .mv_image_wrap {
 	width: 800px;
@@ -2936,23 +2936,23 @@ footer .footer_link a:before {
 	background: linear-gradient(#fff0 50%, #fff0 60%, var(--specialnursing4) 60%);
 }
 #specialnursing .mv_image01 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image01_specialnursing.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image01_specialnursing.png);
 }
 #specialnursing .mv_image02 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image02_specialnursing.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image02_specialnursing.png);
 	width: 543px;
 	bottom: 158px;
 	left: -11px;
 	height: 290px;
 }
 #specialnursing .mv_image03 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image03_specialnursing.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image03_specialnursing.png);
 	width: 186px;
 	right: 88px;
 	top: 24px;
 }
 #specialnursing .mv_image04 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image04_specialnursing.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image04_specialnursing.png);
 	opacity: 1;
 }
 #specialnursing .localNav li::after {
@@ -2962,7 +2962,7 @@ footer .footer_link a:before {
 	width: 60%;
 }
 #specialnursing .summary::before {
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/specialnursing_summary02.png);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/specialnursing_summary02.png);
 	bottom: -78px;
 	right: -12px;
 }
@@ -2975,13 +2975,13 @@ footer .footer_link a:before {
 	right: 0;
 	width: 312px;
 	height: 42px;
-	background: url(../assets/images/support/special/facilitytype/specialnursing_ttl.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/specialnursing_ttl.svg) no-repeat;
 	left: 249px;
 }
 #specialnursing #voice .content_ttl::before {
 	width: 314px;
 	height: 40px;
-	background: url(../assets/images/support/special/facilitytype/specialnursing_ttl_invert.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/specialnursing_ttl_invert.svg) no-repeat;
 	top: 86px;
 	left: 323px;
 }
@@ -3142,10 +3142,10 @@ footer .footer_link a:before {
 	height: 255px;
 }
 #homevisit .mv_image02 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image02_homevisit.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image02_homevisit.png);
 }
 #homevisit .mv_image03 {
-	background-image: url(../assets/images/support/special/facilitytype/mv_image03_homevisit.png);
+	background-image: url(../../assets/images/support/special/facilitytype/mv_image03_homevisit.png);
 }
 #homevisit .mv_image04 {
 	opacity: 0.8;
@@ -3155,7 +3155,7 @@ footer .footer_link a:before {
 }
 #homevisit .summary::before {
 	width: 180px;
-	background: center / contain no-repeat url(../assets/images/support/special/facilitytype/homevisit_summary02.png);
+	background: center / contain no-repeat url(../../assets/images/support/special/facilitytype/homevisit_summary02.png);
 	bottom: 18px;
 	right: 17px;
 }
@@ -3168,13 +3168,13 @@ footer .footer_link a:before {
 	right: 0;
 	width: 208px;
 	height: 42px;
-	background: url(../assets/images/support/special/facilitytype/homevisit_ttl.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/homevisit_ttl.svg) no-repeat;
 	left: 292px;
 }
 #homevisit #voice .content_ttl::before {
 	width: 211px;
 	height: 40px;
-	background: url(../assets/images/support/special/facilitytype/homevisit_ttl_invert.svg) no-repeat;
+	background: url(../../assets/images/support/special/facilitytype/homevisit_ttl_invert.svg) no-repeat;
 	top: 86px;
 	left: 395px;
 }
