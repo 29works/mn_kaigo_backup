@@ -1564,6 +1564,7 @@ header
 @media only screen and (max-width: 767px) {
 	#voice h2 {
 		padding-top: 105px;
+		font-size: 6vw;
 	}
 	#voice .inner {
 		width: 100%;
@@ -1699,6 +1700,7 @@ header
 		margin-bottom: 0;
 		margin-top: 0;
 		padding-top: 60px;
+		font-size: 5.5vw;
 	}
 	#flow::after {
 		background-image: url(/mn_kaigoshoku/assets/images/support/special/opening/bg_wave-bl_sp.png);
@@ -1845,7 +1847,6 @@ header
 	left: 0;
 	height: 100%;
 }
-
 #info .other,
 footer {
 	background: #f5f5f5;
@@ -1879,6 +1880,14 @@ footer {
 		width: 100%;
 		flex-direction: column-reverse;
 	}
+	#info h3 {
+		font-size: 5.5vw;
+		padding-bottom: 4px;
+	}
+	#info .contact p {
+		margin: 0 20px;
+		text-align: left;
+	}
 	#info .other .wrap {
 		width: 100%;
 		flex-direction: column;
@@ -1893,6 +1902,9 @@ footer {
 	}
 	#info .web {
 		margin-top: 65px;
+	}
+	#info .tel a {
+		font-size: 10.5vw;
 	}
 	#info .tel::before {
 		display: none;
@@ -1970,9 +1982,11 @@ footer .footer_link a:before {
 	footer img {
 		grid-column-start: 1;
 		grid-row-start: 2;
+		padding-right: 16px;
+		width: 100%;
 	}
 	footer .footer_right {
-		grid-column-start: 3;
+		grid-column-start: 2;
 		grid-row-end: 2;
 		grid-row-start: 2;
 		grid-column-end: 4;
@@ -2521,7 +2535,7 @@ footer .footer_link a:before {
 		left: 0;
 	}
 	#dayservice #voice .content_ttl::before {
-		left: 26%;
+		left: 25%;
 		top: 48px;
 		right: 50%;
 		width: 100%;
