@@ -338,8 +338,10 @@ header
 .main .main-inner .copy::after,
 #merit h2.cv::after {
 	transform: rotateY(180deg);
+	top: auto;
 	right: -3px;
 	left: auto;
+	bottom: 0;
 }
 .main .main-inner.inview .logo {
 	opacity: 0;
