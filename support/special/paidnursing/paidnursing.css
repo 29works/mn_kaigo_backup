@@ -80,10 +80,10 @@
 	height: 328px;
 }
 @media only screen and (max-width: 767px) {
-	.main {
+	#paidnursing .main {
 		height: 480px;
 	}
-	#merit .merit-item h2 {
+	#paidnursing #merit .merit-item h2 {
 		bottom: 86px;
 	}
 	#paidnursing .mv_image_wrap {
