@@ -2419,6 +2419,9 @@ footer .footer_link a:before {
 		left: 10px;
 		bottom: 33px;
 	}
+	.center-align .main .main-inner {
+		bottom: 80px;
+	}
 	.center-align .mv_image02 {
 		bottom: 53px;
 	}
