@@ -90,7 +90,7 @@
 		margin: -20px 0 0;
 	}
 	#grouphome #merit .merit-item .second {
-		height: 208px;
+		height: auto;
 	}
 	#grouphome h2 .service-name {
 		width: 55vw;
