@@ -935,6 +935,11 @@ header
 	width: 800px;
 	margin: 0 auto;
 }
+#job .content_ttl::before {
+	content: '';
+	position: absolute;
+	display: block;
+}
 #job .content_ttl img {
 	width: 40%;
 }
@@ -1404,6 +1409,12 @@ header
 	text-align: center;
 	letter-spacing: 0.1em;
 }
+#voice .content_ttl::before {
+	content: '';
+	position: absolute;
+	display: block;
+	background-position: center;
+}
 #voice .pc_wrap {
 	width: 960px;
 	padding: 10px 50px;
@@ -1545,6 +1556,11 @@ header
 	font-weight: bold;
 }
 @media only screen and (max-width: 767px) {
+	#voice .content_ttl::before {
+		left: 0;
+		right: 50%;
+		width: 100%;
+	}
 	#voice h2 {
 		padding-top: 105px;
 		font-size: 5.5vw;

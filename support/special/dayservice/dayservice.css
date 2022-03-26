@@ -39,15 +39,12 @@
 }
 #dayservice #job .content_ttl::before,
 #dayservice #voice .content_ttl::before {
-	content: '';
-	position: absolute;
-	display: block;
-	top: 96px;
-	right: 0;
 	width: 174px;
 	height: 37px;
-	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_ttl.svg) no-repeat;
+	top: 96px;
+	right: 0;
 	left: 316px;
+	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_ttl.svg) no-repeat;
 }
 #dayservice #voice .content_ttl::before {
 	width: 211px;
