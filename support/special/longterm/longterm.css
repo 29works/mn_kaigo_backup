@@ -92,6 +92,9 @@
 	#longterm .main .main-inner {
 		padding-top: 4px;
 	}
+	#longterm .mv_image03 {
+		top: -6px;
+	}
 	#longterm .summary-image {
 		width: 126px;
 		left: -64px;
