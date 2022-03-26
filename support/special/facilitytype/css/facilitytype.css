@@ -2412,6 +2412,7 @@ footer .footer_link a:before {
 	.square .mv_image03 {
 		right: auto;
 		left: 20px;
+		top: -15px;
 	}
 	.square .mv_image04 {
 		width: 22vw;
