@@ -131,8 +131,8 @@
 		z-index: 0;
 	}
 	#specialnursing #merit .merit-item {
+		justify-content: flex-start;
 	}
-
 	#specialnursing .main .main-inner .register {
 		position: relative;
 		bottom: -112px;
@@ -189,6 +189,7 @@
 		width: 100%;
 		z-index: auto;
 		text-align: center;
+		bottom: -107px;
 	}
 	#specialnursing .summary .text p {
 		padding: 11px 21px 77px;

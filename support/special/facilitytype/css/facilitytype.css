@@ -28,7 +28,10 @@
 	--homevisit2: #fff2c0;
 	--homevisit3: #e2740f;
 }
-
+* {
+	margin: 0;
+	padding: 0;
+}
 .pc {
 	display: block;
 }
