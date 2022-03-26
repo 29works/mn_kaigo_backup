@@ -214,6 +214,11 @@ h2 span {
 	background: center / 34px no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_deco.svg);
 	right: -11px;
 }
+@media only screen and (max-width: 639px) {
+	.btn_job_entry a::after {
+		display: none;
+	}
+}
 @media only screen and (max-width: 374px) {
 	.register .btn {
 		width: 90%;
@@ -1118,6 +1123,11 @@ header
 	#job .inner {
 		overflow: hidden;
 	}
+	#job .job-content .job-img {
+		width: 19vw;
+		height: 19vw;
+		border-radius: 8px;
+	}
 	#job .swiper-slide .btn_job_entry a::before {
 		background-size: 14vw;
 		left: 2px;
@@ -1142,16 +1152,16 @@ header
 		background-image: url(/mn_kaigoshoku/assets/images/support/special/opening/img_next.png);
 	}
 	#job .swiper-slide h3 {
-		font-size: 18px;
+		font-size: 15px;
 	}
 	#job .job-detail {
 		padding: 20px 20px 8px 14px;
 	}
 	#job .job-detail .salary {
-		font-size: 15px;
+		font-size: 13px;
 	}
 	#job .swiper-slide .detail-txt {
-		font-size: 15px;
+		font-size: 13px;
 		line-height: 1.4;
 		padding-top: 4px;
 	}
