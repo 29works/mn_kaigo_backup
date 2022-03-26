@@ -1,0 +1,116 @@
+@charset 'utf-8';
+/* grouphome */
+#grouphome .main .main-wrap,
+#grouphome .localNav a:hover,
+#grouphome.localNav li::after,
+#grouphome #job {
+	background: var(--grouphome);
+}
+#grouphome .main::before {
+	background: var(--dayservice2);
+}
+#grouphome .summary {
+	background: var(--grouphome2);
+}
+#grouphome .summary-image {
+	width: 198px;
+}
+#grouphome #merit .merit-item {
+	background: var(--grouphome2);
+	border: 11px solid var(--grouphome);
+}
+#grouphome .highlighter {
+	color: var(--paidnursing3);
+	background: linear-gradient(#fff0 50%, #fff0 60%, var(--grouphome) 60%);
+}
+#grouphome #job .highlighter {
+	color: #444;
+	background: linear-gradient(#fff0 50%, #fff0 60%, #9fe7ff 60%);
+}
+#grouphome .mv_image02 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image02_grouphome.png);
+	left: -140px;
+}
+#grouphome .mv_image03 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image03_grouphome.png);
+	width: 241px;
+}
+#grouphome .localNav li::after {
+	border: solid 1px var(--grouphome);
+}
+#grouphome .summary::before {
+	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/grouphome_summary02.png);
+	bottom: -42px;
+}
+#grouphome #job .content_ttl::before,
+#grouphome #voice .content_ttl::before {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 96px;
+	right: 0;
+	width: 237px;
+	height: 42px;
+	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/grouphome_ttl.svg) no-repeat;
+	left: 285px;
+}
+#grouphome #voice .content_ttl::before {
+	width: 211px;
+	height: 40px;
+	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/grouphome_ttl_invert.svg) no-repeat;
+	top: 86px;
+	left: 395px;
+}
+#grouphome h2 .service-name {
+	bottom: 7px;
+}
+#grouphome #merit .merit-item .second {
+	height: 187px;
+}
+@media only screen and (max-width: 767px) {
+	#grouphome #merit h2 {
+		margin: 70px auto 12px;
+		bottom: 32px;
+	}
+	#grouphome .mv_image02 {
+		width: 54vw;
+		height: 54vw;
+		left: 30px;
+	}
+	#grouphome .mv_image03 {
+		right: 10px;
+		width: 42vw;
+		height: 42vw;
+	}
+	#grouphome #job .content_ttl::before {
+		width: 100%;
+		background-position: center;
+		left: 0;
+	}
+	#grouphome #voice .content_ttl::before {
+		left: 26%;
+		top: 48px;
+		right: 50%;
+		width: 100%;
+		margin: 0 auto 100px;
+	}
+	#grouphome .summary {
+		padding-bottom: 64px;
+		margin-top: 40px;
+	}
+	#grouphome .summary::before {
+		width: 100px;
+		bottom: -94px;
+		right: 30px;
+	}
+	#grouphome .summary-image {
+		width: 80%;
+		margin: -20px 0 0;
+	}
+	#grouphome #merit .merit-item .second {
+		height: 180px;
+	}
+	#grouphome h2 .service-name {
+		width: 55vw;
+	}
+}

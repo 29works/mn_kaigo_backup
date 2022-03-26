@@ -1,0 +1,143 @@
+@charset 'utf-8';
+/* 介護老人保健施設 */
+#homevisit .main .main-wrap,
+#homevisit .localNav a:hover,
+#homevisit.localNav li::after,
+#homevisit #job {
+	background: var(--homevisit);
+}
+#homevisit .main::before {
+	background: var(--homevisit2);
+}
+#homevisit .summary {
+	background: var(--homevisit2);
+	height: 248px;
+	text-align: center;
+	max-width: 945px;
+}
+#homevisit .summary .text {
+	width: 61%;
+}
+#homevisit .summary .text h2 {
+	margin-bottom: 0;
+	text-align: center;
+}
+#homevisit .summary-image {
+	width: 167px;
+	position: relative;
+	margin-right: 0;
+}
+#homevisit #merit .no-deco.pic .merit-item h2 {
+	top: -32px;
+}
+#homevisit #merit .merit-item {
+	border: 11px solid var(--homevisit2);
+}
+#homevisit #merit .merit-item h3 span,
+#homevisit #merit .merit-item h3::before {
+	color: var(--homevisit3);
+}
+#homevisit .highlighter {
+	color: var(--homevisit3);
+	background: linear-gradient(#fff0 50%, #fff0 60%, var(--homevisit) 60%);
+}
+#homevisit #job .highlighter {
+	color: #444;
+	background: linear-gradient(#fff0 50%, #fff0 60%, #9fe7ff 60%);
+}
+#homevisit #job .swiper-slide {
+	height: 255px;
+}
+#homevisit .mv_image02 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image02_homevisit.png);
+}
+#homevisit .mv_image03 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image03_homevisit.png);
+}
+#homevisit .mv_image04 {
+	opacity: 0.8;
+}
+#homevisit .localNav li::after {
+	border: solid 1px var(--homevisit);
+}
+#homevisit .summary::before {
+	width: 180px;
+	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/homevisit_summary02.png);
+	bottom: 18px;
+	right: 17px;
+}
+#homevisit #job .content_ttl::before,
+#homevisit #voice .content_ttl::before {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 96px;
+	right: 0;
+	width: 208px;
+	height: 42px;
+	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/homevisit_ttl.svg) no-repeat;
+	left: 292px;
+}
+#homevisit #voice .content_ttl::before {
+	width: 211px;
+	height: 40px;
+	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/homevisit_ttl_invert.svg) no-repeat;
+	top: 86px;
+	left: 395px;
+}
+#homevisit h2 .service-name {
+	width: 160px;
+	bottom: 3px;
+	margin-right: 6px;
+}
+#homevisit #merit .merit-item .second {
+	height: 186px;
+}
+@media only screen and (max-width: 767px) {
+	#homevisit .mv_image_wrap {
+		bottom: -72px;
+	}
+	#homevisit .mv_image02,
+	#homevisit .mv_image03 {
+		position: absolute;
+	}
+	#homevisit .main::before {
+		width: 43vw;
+		height: 43vw;
+		left: 50px;
+		bottom: 46px;
+	}
+	#homevisit .mv_image04 {
+		right: 65px;
+		top: -25px;
+	}
+	#homevisit .summary-image {
+		width: 126px;
+		left: -76px;
+		position: relative;
+	}
+	#homevisit #job .content_ttl::before {
+		width: 100%;
+		background-position: center;
+		left: 0;
+	}
+	#homevisit #voice .content_ttl::before {
+		left: 26%;
+		top: 48px;
+		right: 50%;
+		width: 100%;
+		margin: 0 auto 100px;
+	}
+	#homevisit .summary {
+		padding-bottom: 30px;
+		height: auto;
+	}
+	#homevisit .summary::before {
+		width: 135px;
+		top: -10px;
+		right: 48px;
+	}
+	#homevisit .summary .text {
+		width: auto;
+	}
+}
