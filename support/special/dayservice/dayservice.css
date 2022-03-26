@@ -50,6 +50,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+	#dayservice .btn_job_entry a {
+		font-size: 13px;
+	}
 	#dayservice #merit .merit-item {
 		justify-content: space-between;
 	}
@@ -64,5 +67,11 @@
 	}
 	#dayservice #voice .content_ttl::before {
 		top: 48px;
+	}
+}
+@media only screen and (max-width: 376px) {
+	#dayservice .btn_job_entry a {
+		font-size: 11px;
+		padding: 14px 14px 14px 54px;
 	}
 }

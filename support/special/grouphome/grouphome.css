@@ -103,4 +103,7 @@
 	#grouphome #merit .merit-item .second {
 		height: 283px;
 	}
+	#grouphome h2 .service-name {
+		width: 51vw;
+	}
 }
