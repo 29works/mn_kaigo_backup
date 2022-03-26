@@ -122,10 +122,12 @@
 	#longterm #merit .merit-item .second {
 		height: 288px;
 	}
+	#longterm #job .swiper-slide {
+		align-items: flex-start;
+	}
 	#longterm #job .job-wrap,
 	#longterm #job .job-detail {
-		width: 100%;
-		white-space: inherit;
+		width: 80%;
 	}
 	#longterm #job .swiper-slide {
 		height: auto;
