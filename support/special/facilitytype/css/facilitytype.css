@@ -347,6 +347,9 @@ header
 	top: auto;
 	right: -3px;
 	left: auto;
+}
+#merit h2.cv::before,
+#merit h2.cv::after {
 	bottom: 0;
 }
 .main .main-inner.inview .logo {
