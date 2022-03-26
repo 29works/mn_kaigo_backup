@@ -133,6 +133,8 @@
 		height: auto;
 	}
 	#longterm .btn_job_entry {
+		height: auto;
 		margin: 0 auto;
+		padding-bottom: 10px;
 	}
 }
