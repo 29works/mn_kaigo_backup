@@ -130,6 +130,9 @@
 	#specialnursing #sineCanvas {
 		z-index: 0;
 	}
+	#specialnursing #merit .merit-item {
+	}
+
 	#specialnursing .main .main-inner .register {
 		position: relative;
 		bottom: -112px;
@@ -178,7 +181,9 @@
 		background-position: right;
 	}
 	#specialnursing #merit .merit-item .second {
-		height: 209px;
+		justify-content: flex-start;
+		height: auto;
+		padding-bottom: 20px;
 	}
 	#specialnursing .mv_image_wrap {
 		width: 100%;
