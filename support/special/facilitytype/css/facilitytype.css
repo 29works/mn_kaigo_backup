@@ -219,10 +219,16 @@ h2 span {
 		padding: 1em 0 1em 3.5em;
 	}
 	.register .free {
-		font-size: 14px;
-		left: 10px;
 		padding: 13px;
 		top: -17px;
+		left: 10px;
+		font-size: 14px;
+		background-size: 21vw;
+	}
+	.register .free::after {
+		background-size: 10vw;
+		right: -14px;
+		bottom: -7px;
 	}
 }
 /* ---------------------------
