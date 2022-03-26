@@ -117,9 +117,13 @@
 	}
 	#longterm h2 .service-name {
 		width: 220px;
+		bottom: -2px;
 	}
 	#longterm #merit .merit-item .second {
 		height: 288px;
+	}
+	#longterm #job .job-wrap {
+		width: 100%;
 	}
 	#longterm #job .swiper-slide {
 		height: auto;
