@@ -158,23 +158,22 @@ h2 span {
 	position: relative;
 }
 .register p {
+	padding: 0.8em 1.8em 0.8em 5.3em;
 	text-align: center;
 	font-weight: bold;
 	font-size: 18px;
 	color: #ffffff;
 	box-sizing: border-box;
-	padding: 0.8em 0.2em 0.8em 3em;
 	background-color: #051a2b;
 	border-radius: 30px;
 }
 .register .btn {
 	position: relative;
-	background: none;
-	box-shadow: none;
-	color: white;
 	padding: unset;
 	line-height: unset;
-	padding: unset;
+	color: white;
+	background: none;
+	box-shadow: none;
 }
 .register .btn::after {
 	position: absolute;

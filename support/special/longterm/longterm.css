@@ -6,6 +6,9 @@
 #longterm #job {
 	background: var(--longterm);
 }
+#longterm .main .main-inner .title {
+	margin-bottom: 10px;
+}
 #longterm .main::before {
 	background: var(--longterm2);
 }
