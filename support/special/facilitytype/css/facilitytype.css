@@ -2388,6 +2388,12 @@ footer .footer_link a:before {
 		height: 218px;
 	}
 }
+@media only screen and (max-width: 374px) {
+	.square .mv_image_wrap {
+		height: 0;
+	}
+}
+
 /* page-top */
 #page-top {
 	position: fixed;
