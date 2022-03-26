@@ -235,6 +235,9 @@ h2 span {
 		right: -14px;
 		bottom: -7px;
 	}
+	.btn_job_entry a::after {
+		display: none;
+	}
 }
 /* ---------------------------
 header
