@@ -60,6 +60,9 @@
 	bottom: 18px;
 	right: 27px;
 }
+#longterm #job .swiper-slide {
+	height: 275px;
+}
 #longterm #job .content_ttl::before,
 #longterm #voice .content_ttl::before {
 	top: 96px;
