@@ -132,4 +132,7 @@
 	#longterm #job .swiper-slide {
 		height: auto;
 	}
+	#longterm .btn_job_entry {
+		margin: 0 auto;
+	}
 }
