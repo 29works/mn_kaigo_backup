@@ -81,6 +81,7 @@
 	}
 	#paidnursing #merit .merit-item {
 		justify-content: space-between;
+		height: 100%;
 	}
 	#paidnursing #merit .merit-item h2 {
 		bottom: 86px;
