@@ -80,7 +80,7 @@
 	margin-right: 6px;
 }
 #homevisit #merit .merit-item .second {
-	height: 186px;
+	height: 215px;
 }
 @media only screen and (max-width: 767px) {
 	#homevisit .mv_image_wrap {
@@ -94,7 +94,7 @@
 	#homevisit .summary::before {
 		width: 135px;
 		top: -10px;
-		right: 48px;
+		right: 18px;
 	}
 	#homevisit .summary .text {
 		width: auto;
@@ -110,5 +110,14 @@
 	}
 	#homevisit #voice .content_ttl::before {
 		top: 48px;
+	}
+}
+@media only screen and (max-width: 376px) {
+	#homevisit .mv_image04 {
+		right: 40px;
+		top: -17px;
+	}
+	#homevisit #merit .merit-item .second {
+		height: 247px;
 	}
 }

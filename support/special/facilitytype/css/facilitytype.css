@@ -1147,7 +1147,7 @@ header
 		font-size: 18px;
 	}
 	#job .job-detail {
-		padding-bottom: 8px;
+		padding: 20px 20px 8px 14px;
 	}
 	#job .job-detail .salary {
 		font-size: 15px;
@@ -1178,6 +1178,10 @@ header
 	#merit h2,
 	#job .content_ttl {
 		font-size: 5vw;
+	}
+	#job .swiper-slide:first-of-type .job-img {
+		width: 20vw;
+		height: 20vw;
 	}
 }
 @media only screen and (min-width: 768px) {
@@ -2318,7 +2322,7 @@ footer .footer_link a:before {
 	}
 	.center-align .mv_image02 {
 		width: 46vw;
-		left: 25px;
+		left: 7px;
 		bottom: 53px;
 	}
 	.center-align .mv_image03 {
@@ -2398,9 +2402,21 @@ footer .footer_link a:before {
 		height: 218px;
 	}
 }
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 376px) {
 	.square .mv_image_wrap {
 		height: 0;
+	}
+	.square .main::before {
+		width: 60vw;
+		height: 60vw;
+		left: 10px;
+		bottom: 33px;
+	}
+	.center-align .mv_image03 {
+		top: -11px;
+	}
+	.center-align .mv-title::before {
+		bottom: 4px;
 	}
 }
 
