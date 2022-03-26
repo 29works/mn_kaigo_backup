@@ -85,9 +85,12 @@
 	height: 240px;
 }
 @media only screen and (max-width: 767px) {
-	.mv_image_wrap {
+	#longterm .mv_image_wrap {
 		height: 40px;
 		bottom: -49px;
+	}
+	#longterm .main .main-inner {
+		padding-top: 4px;
 	}
 	#longterm .summary-image {
 		width: 126px;
