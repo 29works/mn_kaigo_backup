@@ -343,7 +343,7 @@ header
 #merit h2.cv::after {
 	content: '';
 	position: absolute;
-	top: 0;
+	top: auto;
 	left: -13px;
 	width: 19px;
 	height: 30px;
@@ -370,7 +370,6 @@ header
 	flex-direction: column;
 	justify-content: space-evenly;
 	height: 305px;
-	/* padding-right: 44px; */
 	top: 20px;
 	left: -39px;
 }

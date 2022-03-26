@@ -82,7 +82,7 @@
 	margin-right: 0;
 }
 #longterm #merit .merit-item .second {
-	height: 195px;
+	height: 240px;
 }
 @media only screen and (max-width: 767px) {
 	.mv_image_wrap {
@@ -108,5 +108,11 @@
 		width: 135px;
 		top: -10px;
 		right: 15px;
+	}
+	#longterm h2 .service-name {
+		width: 220px;
+	}
+	#longterm #merit .merit-item .second {
+		height: 288px;
 	}
 }
