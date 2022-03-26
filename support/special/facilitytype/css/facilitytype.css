@@ -1140,7 +1140,7 @@ header
 	}
 	#job .swiper-slide .btn_job_entry a::before {
 		background-size: 13vw;
-		left: -10px;
+		left: -4px;
 	}
 	#job .swiper-slide {
 		height: auto;
