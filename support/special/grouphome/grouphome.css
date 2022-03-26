@@ -97,9 +97,6 @@
 	}
 }
 @media only screen and (max-width: 374px) {
-	#grouphome #merit h2 {
-		bottom: 53px;
-	}
 	#grouphome #merit .merit-item h3 {
 		font-size: 14px;
 	}
