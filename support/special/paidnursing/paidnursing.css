@@ -70,10 +70,17 @@
 }
 #paidnursing #merit .merit-item .second {
 	height: 328px;
+	padding: 10px 20px 0;
 }
 @media only screen and (max-width: 767px) {
+	#paidnursing .main .main-inner .copy {
+		background-color: var(--paidnursing2);
+	}
 	#paidnursing .main {
 		height: 480px;
+	}
+	#paidnursing #merit .merit-item {
+		justify-content: space-between;
 	}
 	#paidnursing #merit .merit-item h2 {
 		bottom: 86px;
@@ -81,6 +88,19 @@
 	#paidnursing .mv_image_wrap {
 		width: 100%;
 		bottom: -122px;
+	}
+	#paidnursing .mv_image02 {
+		bottom: 46px;
+	}
+	#paidnursing .mv_image04 {
+		width: 100%;
+		height: 30vw;
+		right: 0;
+		left: auto;
+		top: auto;
+		bottom: 51px;
+		z-index: 0;
+		background-position: right;
 	}
 	#paidnursing .summary .text {
 		width: 100%;
@@ -109,11 +129,23 @@
 	#paidnursing .mv_image_wrap {
 		bottom: -74px;
 	}
+	#paidnursing .mv_image02 {
+		bottom: 0;
+	}
+	#paidnursing .mv_image03 {
+		top: 18px;
+	}
+	#paidnursing .mv_image04 {
+		bottom: 0;
+	}
 	#paidnursing h2 .service-name {
 		width: 190px;
 		bottom: 8px;
 	}
 	#paidnursing #merit .merit-item .second {
 		height: auto;
+	}
+	#paidnursing .main::before {
+		bottom: 10px;
 	}
 }
