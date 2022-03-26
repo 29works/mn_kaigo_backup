@@ -2405,6 +2405,9 @@ footer .footer_link a:before {
 		bottom: 41px;
 		height: 218px;
 	}
+	.center-align .mv_image02 {
+		bottom: 22px;
+	}
 }
 @media only screen and (max-width: 376px) {
 	.square .mv_image_wrap {
@@ -2415,6 +2418,9 @@ footer .footer_link a:before {
 		height: 60vw;
 		left: 10px;
 		bottom: 33px;
+	}
+	.center-align .mv_image02 {
+		bottom: 53px;
 	}
 	.center-align .mv_image03 {
 		top: -11px;
