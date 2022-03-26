@@ -69,7 +69,6 @@
 #homevisit #job .content_ttl::before,
 #homevisit #voice .content_ttl::before {
 	top: 96px;
-	width: 208px;
 	height: 42px;
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/homevisit_ttl.svg);
 }
@@ -113,11 +112,9 @@
 		right: 65px;
 		top: -25px;
 	}
-	#homevisit #job .content_ttl::before {
+	/* #homevisit #job .content_ttl::before {
 		width: 100%;
-		/* background-position: center; */
-		/* left: 0; */
-	}
+	} */
 	#homevisit #voice .content_ttl::before {
 		top: 48px;
 	}

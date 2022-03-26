@@ -45,8 +45,6 @@
 #grouphome #job .content_ttl::before,
 #grouphome #voice .content_ttl::before {
 	top: 96px;
-	/* width: 237px; */
-	/* height: 42px; */
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/grouphome_ttl.svg);
 }
 #grouphome #voice .content_ttl::before {
@@ -76,11 +74,6 @@
 		width: 42vw;
 		height: 42vw;
 	}
-	/* #grouphome #job .content_ttl::before {
-		width: 100%;
-		background-position: center;
-		left: 0;
-	} */
 	#grouphome #voice .content_ttl::before {
 		top: 48px;
 	}

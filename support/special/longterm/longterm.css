@@ -60,7 +60,6 @@
 #longterm #job .content_ttl::before,
 #longterm #voice .content_ttl::before {
 	top: 96px;
-	width: 298px;
 	height: 42px;
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/longterm_ttl.svg);
 }
@@ -92,8 +91,6 @@
 	}
 	#longterm #job .content_ttl::before {
 		width: 100%;
-		/* background-position: center; */
-		/* left: 0; */
 	}
 	#longterm #voice .content_ttl::before {
 		top: 48px;
