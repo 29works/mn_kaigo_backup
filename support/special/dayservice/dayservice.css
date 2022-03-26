@@ -57,11 +57,6 @@
 	#dayservice .mv_image02 {
 		left: 20px;
 	}
-	#dayservice #job .content_ttl::before {
-		width: 100%;
-		background-position: center;
-		left: 0;
-	}
 	#dayservice #voice .content_ttl::before {
 		top: 48px;
 	}

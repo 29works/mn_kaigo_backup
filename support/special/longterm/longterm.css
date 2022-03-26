@@ -92,8 +92,8 @@
 	}
 	#longterm #job .content_ttl::before {
 		width: 100%;
-		background-position: center;
-		left: 0;
+		/* background-position: center; */
+		/* left: 0; */
 	}
 	#longterm #voice .content_ttl::before {
 		top: 48px;

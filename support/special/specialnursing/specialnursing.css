@@ -197,10 +197,10 @@
 		bottom: -88px;
 	}
 	#specialnursing #job .content_ttl::before {
-		width: 100%;
+		/* width: 100%; */
 		background-size: 240px;
-		background-position: center;
-		left: 0;
+		/* background-position: center; */
+		/* left: 0; */
 	}
 	#specialnursing #voice .content_ttl::before {
 		top: 48px;
