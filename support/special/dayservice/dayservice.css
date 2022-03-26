@@ -48,7 +48,14 @@
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_ttl_invert.svg);
 	top: 86px;
 }
+
 @media only screen and (max-width: 767px) {
+	#dayservice #merit .merit-item {
+		justify-content: space-between;
+	}
+	#dayservice #merit .merit-item .second {
+		padding: 14px 20px 0;
+	}
 	#dayservice .summary .text p {
 		padding: 10px 0 80px;
 	}
@@ -57,8 +64,5 @@
 	}
 	#dayservice #voice .content_ttl::before {
 		top: 48px;
-	}
-	#dayservice #merit .merit-item .second {
-		padding-top: 14px;
 	}
 }
