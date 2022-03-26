@@ -125,6 +125,9 @@
 	background-color: var(--specialnursing4);
 }
 @media only screen and (max-width: 767px) {
+	#specialnursing .main {
+		height: 454px;
+	}
 	#specialnursing .mv-title {
 		top: 150px;
 		z-index: auto;
@@ -132,19 +135,22 @@
 	#specialnursing .mv-title::before {
 		z-index: 1;
 	}
-	#specialnursing .main {
-		height: 454px;
-	}
 	#specialnursing #sineCanvas {
 		z-index: 0;
 	}
-	#specialnursing h2 .service-name {
-		width: 70%;
-	}
-
 	#specialnursing .main .main-inner .register {
 		position: relative;
 		bottom: -112px;
+	}
+	#specialnursing .summary-image {
+		width: 157px;
+		margin: 10px 0 0 0;
+	}
+	#specialnursing .o-scroll {
+		margin-top: 24px;
+	}
+	#specialnursing h2 .service-name {
+		width: 70%;
 	}
 	#specialnursing .mv_image01 {
 		width: 100%;

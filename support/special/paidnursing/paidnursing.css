@@ -112,11 +112,11 @@
 		margin: 0 auto 100px;
 	}
 	#paidnursing .main::before {
-		right: 0;
-		left: 48vw;
-		bottom: -7px;
 		width: 50vw;
 		height: 50vw;
+		right: 11px;
+		left: auto;
+		bottom: -14px;
 	}
 }
 @media only screen and (max-width: 374px) {

@@ -2252,10 +2252,10 @@ footer .footer_link a:before {
 		position: absolute;
 	}
 	.center-align .mv_image01 {
-		width: 72vw;
+		width: 100%;
 		top: auto;
-		bottom: 38px;
-		left: -86px;
+		bottom: 8px;
+		left: -41px;
 		z-index: 0;
 		height: 33vw;
 	}
