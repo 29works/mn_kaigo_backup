@@ -332,7 +332,7 @@ header
 	opacity: 0;
 	transform: translateX(50px);
 }
-tle {
+.mv-title {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
