@@ -115,12 +115,6 @@
 		left: -76px;
 		position: relative;
 	}
-	#homevisit .main::before {
-		width: 43vw;
-		height: 43vw;
-		left: 50px;
-		bottom: 46px;
-	}
 	#homevisit .mv_image04 {
 		right: 65px;
 		top: -25px;

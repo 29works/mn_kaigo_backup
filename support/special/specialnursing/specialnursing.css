@@ -1,0 +1,204 @@
+@charset 'utf-8';
+/* 特別養護老人ホーム */
+#specialnursing .main {
+	background: var(--specialnursing);
+	height: 366px;
+}
+#specialnursing #sineCanvas {
+	transform: rotateX(360deg);
+	z-index: 6;
+	bottom: 0;
+}
+#specialnursing .mv-title::before {
+	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/main_title_specialnursing_deco.png);
+}
+#specialnursing .mv_image_wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+#specialnursing .o-scroll {
+	margin-top: 60px;
+}
+#specialnursing .main .main-wrap,
+#specialnursing .localNav a:hover,
+#specialnursing.localNav li::after,
+#specialnursing #job {
+	background: var(--specialnursing);
+	padding-top: 0;
+}
+#specialnursing .main .main-inner {
+	height: 177px;
+	z-index: auto;
+}
+#specialnursing .main::before {
+	background: var(--specialnursing2);
+	width: 300px;
+	height: 300px;
+	left: 50%;
+}
+#specialnursing .summary {
+	background: var(--specialnursing2);
+}
+#specialnursing .summary-image {
+	width: 174px;
+}
+#specialnursing #merit .merit-item {
+	border: 11px solid #ffbe9b;
+	background: var(--specialnursing2);
+}
+#specialnursing #merit .merit-item h2 {
+	color: #051a2b;
+	top: -31px;
+}
+#specialnursing #merit .merit-item h3 span,
+#specialnursing #merit .merit-item h3::before {
+	color: var(--specialnursing3);
+}
+#specialnursing .highlighter {
+	color: var(--specialnursing3);
+	background: linear-gradient(#fff0 50%, #fff0 60%, var(--specialnursing) 60%);
+}
+#specialnursing .highlighter {
+	background: linear-gradient(#fff0 50%, #fff0 60%, var(--specialnursing4) 60%);
+}
+#specialnursing #job .highlighter {
+	color: #444;
+	background: linear-gradient(#fff0 50%, #fff0 60%, var(--specialnursing4) 60%);
+}
+#specialnursing .mv_image01 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image01_specialnursing.png);
+}
+#specialnursing .mv_image02 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image02_specialnursing.png);
+	width: 543px;
+	bottom: 158px;
+	left: -11px;
+	height: 290px;
+}
+#specialnursing .mv_image03 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image03_specialnursing.png);
+	width: 186px;
+	right: 88px;
+	top: 24px;
+}
+#specialnursing .mv_image04 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image04_specialnursing.png);
+	opacity: 1;
+}
+#specialnursing .localNav li::after {
+	border: solid 1px var(--specialnursing);
+}
+#specialnursing .summary .text {
+	width: 60%;
+}
+#specialnursing .summary::before {
+	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_summary02.png);
+	bottom: -78px;
+	right: -12px;
+}
+#specialnursing #job .content_ttl::before,
+#specialnursing #voice .content_ttl::before {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 96px;
+	right: 0;
+	width: 312px;
+	height: 42px;
+	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_ttl.svg) no-repeat;
+	left: 249px;
+}
+#specialnursing #voice .content_ttl::before {
+	width: 314px;
+	height: 40px;
+	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_ttl_invert.svg) no-repeat;
+	top: 86px;
+	left: 323px;
+}
+#specialnursing h2 .service-name {
+	bottom: 3px;
+}
+#specialnursing #merit .merit-item .second {
+	height: 217px;
+}
+#specialnursing #job .job-tag {
+	background-color: var(--specialnursing4);
+}
+@media only screen and (max-width: 767px) {
+	#specialnursing .mv-title::before {
+		z-index: 1;
+	}
+	#specialnursing .main {
+		height: 454px;
+	}
+	#specialnursing #sineCanvas {
+		z-index: 0;
+	}
+	#specialnursing h2 .service-name {
+		width: 70%;
+	}
+	#specialnursing .mv-title {
+		top: 101px;
+		z-index: auto;
+	}
+	#specialnursing .main .main-inner .register {
+		position: relative;
+		bottom: -112px;
+	}
+	#specialnursing .mv_image02 {
+		position: absolute;
+		width: 38vw;
+		left: 0;
+		bottom: -217px;
+		z-index: 2;
+		right: 0;
+		background-position: calc(50% - 31px) 0;
+		height: 29vw;
+	}
+	#specialnursing #merit .merit-item .second {
+		height: 209px;
+	}
+	#specialnursing .mv_image03 {
+		width: 100%;
+		top: auto;
+		right: 0;
+		z-index: 1;
+		height: 165px;
+		bottom: -217px;
+		background-position: calc(50% + 70px) 0;
+		left: 0;
+	}
+	#specialnursing .mv_image_wrap {
+		width: 100%;
+		z-index: auto;
+		text-align: center;
+	}
+	#specialnursing .summary .text p {
+		padding: 11px 21px 77px;
+	}
+	#specialnursing .summary .text {
+		width: 100%;
+	}
+	#specialnursing .summary::before {
+		bottom: -88px;
+	}
+	#specialnursing #job .content_ttl::before {
+		width: 100%;
+		background-size: 240px;
+		background-position: center;
+		left: 0;
+	}
+	#specialnursing #voice .content_ttl::before {
+		left: 26%;
+		top: 48px;
+		right: 50%;
+		width: 100%;
+		margin: 0 auto 100px;
+	}
+	#specialnursing .main::before {
+		display: none;
+	}
+	#specialnursing .main .main-inner .copy {
+		background-color: #ffffffc2;
+	}
+}

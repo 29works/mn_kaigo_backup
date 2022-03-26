@@ -1,0 +1,120 @@
+@charset 'utf-8';
+/* 有料老人ホーム */
+#paidnursing .mv-title::before {
+	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/main_title_grouphome_deco.png);
+}
+#paidnursing .mv_image_wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+#paidnursing .main .main-wrap,
+#paidnursing .localNav a:hover,
+#paidnursing.localNav li::after,
+#paidnursing #job {
+	background: var(--paidnursing);
+	padding-top: 0;
+}
+#paidnursing .main::before {
+	background: var(--paidnursing2);
+	width: 300px;
+	height: 300px;
+	left: 50%;
+}
+#paidnursing .summary {
+	background: var(--paidnursing2);
+}
+#paidnursing .summary-image {
+	width: 198px;
+}
+#paidnursing #merit .merit-item {
+	background: var(--paidnursing2);
+	border: 11px solid var(--paidnursing);
+}
+#paidnursing .highlighter {
+	color: var(--paidnursing3);
+	background: linear-gradient(#fff0 50%, #fff0 60%, var(--paidnursing) 60%);
+}
+#paidnursing #job .highlighter {
+	color: #444;
+	background: linear-gradient(#fff0 50%, #fff0 60%, #9fe7ff 60%);
+}
+#paidnursing .mv_image02 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image02_paidnursing.png);
+}
+#paidnursing .mv_image03 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image03_paidnursing.png);
+}
+#paidnursing .localNav li::after {
+	border: solid 1px var(--paidnursing);
+}
+#paidnursing .summary .text {
+	width: 60%;
+}
+#paidnursing .summary::before {
+	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/paidnursing_summary02.png);
+	bottom: 115px;
+}
+#paidnursing #job .content_ttl::before,
+#paidnursing #voice .content_ttl::before {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 96px;
+	right: 0;
+	width: 237px;
+	height: 42px;
+	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/paidnursing_ttl.svg) no-repeat;
+	left: 285px;
+}
+#paidnursing #voice .content_ttl::before {
+	width: 211px;
+	height: 40px;
+	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/paidnursing_ttl_invert.svg) no-repeat;
+	top: 86px;
+	left: 395px;
+}
+#paidnursing h2 .service-name {
+	bottom: 3px;
+}
+#paidnursing #merit .merit-item .second {
+	height: 328px;
+}
+@media only screen and (max-width: 767px) {
+	#paidnursing .mv_image_wrap {
+		width: 100%;
+		bottom: -122px;
+	}
+	#paidnursing .summary .text {
+		width: 100%;
+	}
+	#paidnursing .summary .text p {
+		padding-bottom: 15%;
+	}
+	#paidnursing .summary::before {
+		bottom: -88px;
+	}
+	#paidnursing #job .content_ttl::before {
+		width: 100%;
+		background-position: center;
+		left: 0;
+	}
+	#paidnursing #voice .content_ttl::before {
+		left: 26%;
+		top: 48px;
+		right: 50%;
+		width: 100%;
+		margin: 0 auto 100px;
+	}
+	#paidnursing .main::before {
+		right: 0;
+		left: 40vw;
+		bottom: 44px;
+		width: 50vw;
+		height: 50vw;
+	}
+}
+@media only screen and (max-width: 374px) {
+	#paidnursing .mv_image_wrap {
+		bottom: -74px;
+	}
+}

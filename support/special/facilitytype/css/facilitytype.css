@@ -9,6 +9,7 @@
 	--grouphome2: #ffd8c0;
 	--grouphome3: #3e71be;
 
+	/* 有料老人ホーム */
 	--paidnursing: #ffa7a3;
 	--paidnursing2: #ffe4e3;
 	--paidnursing3: #3e71be;
@@ -331,27 +332,7 @@ header
 	opacity: 0;
 	transform: translateX(50px);
 }
-/* .main .main-inner.inviewFade .copy,
-.main .main-inner.inviewFade .title,
-.main .main-inner.inviewFade .satisfied,
-.main .main-inner.inviewFade .main-btn {
-	opacity: 1;
-	transform: translateY(0);
-	transition: 0.8s;
-}
-.main .main-inner.inviewFade .title {
-	transition-delay: 0.2s;
-}
-.main .main-inner.inviewFade .main-btn {
-	transition-delay: 0.6s;
-}
-.main .main-inner.inviewFade .logo {
-	opacity: 1;
-	transform: translateX(0);
-	transition: 0.8s;
-	transition-delay: 0.8s;
-} */
-.mv-title {
+tle {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -408,10 +389,9 @@ header
 }
 @media only screen and (max-width: 767px) {
 	.main {
+		margin: 0;
+		padding: 0;
 		height: 600px;
-		min-height: 1px;
-		background: url(/mn_kaigoshoku/assets/images/support/kaigofukushi/main_bg_sp.jpg) center top no-repeat;
-		background-size: 100%;
 	}
 	.main::before {
 		width: 53vw;
@@ -1784,7 +1764,6 @@ header
 #info {
 	background: #f5f5f5;
 }
-
 #info .contact {
 	position: relative;
 	background: center / cover no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/info_bg.png);
@@ -2036,12 +2015,11 @@ footer .footer_link a:before {
 		margin: 0 auto;
 	}
 	.about__card:after {
-		line-height: 48px;
-		/*font-size: 20px;*/
-		font-size: 34px;
 		width: 48px;
-		left: 24px;
+		line-height: 48px;
+		font-size: 34px;
 		top: 26px;
+		left: 24px;
 	}
 	.about__card:not(:last-of-type) {
 		margin-bottom: 20px;
@@ -2186,8 +2164,9 @@ footer .footer_link a:before {
 }
 
 /* ---------------------------
-共通 / block
+共通 / mv画像の配置
 --------------------------- */
+/* .center-align ：　mvのタイトルが真ん中にあるå場合　*/
 .center-align .mv-title {
 	position: absolute;
 	display: flex;
@@ -2247,6 +2226,7 @@ footer .footer_link a:before {
 .center-align #merit .merit-item h2 {
 	bottom: 81px;
 }
+/* .square ：　mvの画像が四角い場合　*/
 .square .mv_image01 {
 	position: absolute;
 	width: 23vw;
@@ -2273,6 +2253,7 @@ footer .footer_link a:before {
 	bottom: -140px;
 }
 @media only screen and (max-width: 767px) {
+	/* .center-align  */
 	.center-align .main {
 		height: 522px;
 	}
@@ -2331,6 +2312,10 @@ footer .footer_link a:before {
 	.center-align #merit .merit-item h2 {
 		bottom: 97px;
 	}
+	/* square */
+	.square .main {
+		height: 510px;
+	}
 	.square .main .main-inner {
 		padding-top: 0;
 	}
@@ -2338,10 +2323,10 @@ footer .footer_link a:before {
 		height: 47px;
 	}
 	.square .main::before {
-		bottom: -25px;
 		width: 44vw;
 		height: 44vw;
 		left: 50px;
+		bottom: -25px;
 	}
 	.square .mv_image02,
 	.square .mv_image03 {
@@ -2349,20 +2334,21 @@ footer .footer_link a:before {
 	}
 	.square .mv_image02 {
 		width: 40vw;
-		bottom: -143px;
-		left: auto;
-		right: 20px;
 		height: 26vw;
+		right: 20px;
+		left: auto;
+		bottom: -143px;
+		background-position: right;
 	}
 	.square .mv_image03 {
 		right: auto;
 		left: 20px;
 	}
 	.square .mv_image04 {
-		left: auto;
-		right: 90px;
 		width: 22vw;
 		top: -50px;
+		right: 90px;
+		left: auto;
 	}
 }
 @media only screen and (max-width: 490px) {
@@ -2445,331 +2431,6 @@ footer .footer_link a:before {
 @media only screen and (max-width: 374px) {
 	.floating .btn-entry::after {
 		display: none;
-	}
-}
-
-/* 有料老人ホーム */
-#paidnursing .mv-title::before {
-	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/main_title_grouphome_deco.png);
-}
-#paidnursing .mv_image_wrap {
-	width: 800px;
-	margin: 0 auto;
-}
-#paidnursing .main .main-wrap,
-#paidnursing .localNav a:hover,
-#paidnursing.localNav li::after,
-#paidnursing #job {
-	background: var(--paidnursing);
-	padding-top: 0;
-}
-#paidnursing .main::before {
-	background: var(--paidnursing2);
-	width: 300px;
-	height: 300px;
-	left: 50%;
-}
-#paidnursing .summary {
-	background: var(--paidnursing2);
-}
-#paidnursing .summary-image {
-	width: 198px;
-}
-#paidnursing #merit .merit-item {
-	background: var(--paidnursing2);
-	border: 11px solid var(--paidnursing);
-}
-#paidnursing .highlighter {
-	color: var(--paidnursing3);
-	background: linear-gradient(#fff0 50%, #fff0 60%, var(--paidnursing) 60%);
-}
-#paidnursing #job .highlighter {
-	color: #444;
-	background: linear-gradient(#fff0 50%, #fff0 60%, #9fe7ff 60%);
-}
-#paidnursing .mv_image02 {
-	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image02_paidnursing.png);
-}
-#paidnursing .mv_image03 {
-	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image03_paidnursing.png);
-}
-#paidnursing .localNav li::after {
-	border: solid 1px var(--paidnursing);
-}
-#paidnursing .summary .text {
-	width: 60%;
-}
-#paidnursing .summary::before {
-	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/paidnursing_summary02.png);
-	bottom: 115px;
-}
-#paidnursing #job .content_ttl::before,
-#paidnursing #voice .content_ttl::before {
-	content: '';
-	position: absolute;
-	display: block;
-	top: 96px;
-	right: 0;
-	width: 237px;
-	height: 42px;
-	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/paidnursing_ttl.svg) no-repeat;
-	left: 285px;
-}
-#paidnursing #voice .content_ttl::before {
-	width: 211px;
-	height: 40px;
-	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/paidnursing_ttl_invert.svg) no-repeat;
-	top: 86px;
-	left: 395px;
-}
-#paidnursing h2 .service-name {
-	bottom: 3px;
-}
-#paidnursing #merit .merit-item .second {
-	height: 328px;
-}
-@media only screen and (max-width: 767px) {
-	#paidnursing .mv_image_wrap {
-		width: 100%;
-		bottom: -122px;
-	}
-	#paidnursing .summary .text {
-		width: 100%;
-	}
-	#paidnursing .summary .text p {
-		padding-bottom: 15%;
-	}
-	#paidnursing .summary::before {
-		bottom: -88px;
-	}
-	#paidnursing #job .content_ttl::before {
-		width: 100%;
-		background-position: center;
-		left: 0;
-	}
-	#paidnursing #voice .content_ttl::before {
-		left: 26%;
-		top: 48px;
-		right: 50%;
-		width: 100%;
-		margin: 0 auto 100px;
-	}
-	#paidnursing .main::before {
-		right: 0;
-		left: 40vw;
-		bottom: 44px;
-		width: 50vw;
-		height: 50vw;
-	}
-}
-
-@media only screen and (max-width: 374px) {
-	#paidnursing .mv_image_wrap {
-		bottom: -74px;
-	}
-}
-
-/* 特別養護老人ホーム */
-#specialnursing .main {
-	background: var(--specialnursing);
-	height: 366px;
-}
-#specialnursing #sineCanvas {
-	transform: rotateX(360deg);
-	z-index: 6;
-	bottom: 0;
-}
-#specialnursing .mv-title::before {
-	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/main_title_specialnursing_deco.png);
-}
-#specialnursing .mv_image_wrap {
-	width: 800px;
-	margin: 0 auto;
-}
-#specialnursing .o-scroll {
-	margin-top: 60px;
-}
-#specialnursing .main .main-wrap,
-#specialnursing .localNav a:hover,
-#specialnursing.localNav li::after,
-#specialnursing #job {
-	background: var(--specialnursing);
-	padding-top: 0;
-}
-#specialnursing .main .main-inner {
-	height: 177px;
-	z-index: auto;
-}
-#specialnursing .main::before {
-	background: var(--specialnursing2);
-	width: 300px;
-	height: 300px;
-	left: 50%;
-}
-#specialnursing .summary {
-	background: var(--specialnursing2);
-}
-#specialnursing .summary-image {
-	width: 174px;
-}
-#specialnursing #merit .merit-item {
-	border: 11px solid #ffbe9b;
-	background: var(--specialnursing2);
-}
-#specialnursing #merit .merit-item h2 {
-	color: #051a2b;
-	top: -31px;
-}
-#specialnursing #merit .merit-item h3 span,
-#specialnursing #merit .merit-item h3::before {
-	color: var(--specialnursing3);
-}
-#specialnursing .highlighter {
-	color: var(--specialnursing3);
-	background: linear-gradient(#fff0 50%, #fff0 60%, var(--specialnursing) 60%);
-}
-#specialnursing .highlighter {
-	background: linear-gradient(#fff0 50%, #fff0 60%, var(--specialnursing4) 60%);
-}
-#specialnursing #job .highlighter {
-	color: #444;
-	background: linear-gradient(#fff0 50%, #fff0 60%, var(--specialnursing4) 60%);
-}
-#specialnursing .mv_image01 {
-	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image01_specialnursing.png);
-}
-#specialnursing .mv_image02 {
-	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image02_specialnursing.png);
-	width: 543px;
-	bottom: 158px;
-	left: -11px;
-	height: 290px;
-}
-#specialnursing .mv_image03 {
-	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image03_specialnursing.png);
-	width: 186px;
-	right: 88px;
-	top: 24px;
-}
-#specialnursing .mv_image04 {
-	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image04_specialnursing.png);
-	opacity: 1;
-}
-#specialnursing .localNav li::after {
-	border: solid 1px var(--specialnursing);
-}
-#specialnursing .summary .text {
-	width: 60%;
-}
-#specialnursing .summary::before {
-	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_summary02.png);
-	bottom: -78px;
-	right: -12px;
-}
-#specialnursing #job .content_ttl::before,
-#specialnursing #voice .content_ttl::before {
-	content: '';
-	position: absolute;
-	display: block;
-	top: 96px;
-	right: 0;
-	width: 312px;
-	height: 42px;
-	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_ttl.svg) no-repeat;
-	left: 249px;
-}
-#specialnursing #voice .content_ttl::before {
-	width: 314px;
-	height: 40px;
-	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_ttl_invert.svg) no-repeat;
-	top: 86px;
-	left: 323px;
-}
-#specialnursing h2 .service-name {
-	bottom: 3px;
-}
-#specialnursing #merit .merit-item .second {
-	height: 217px;
-}
-#specialnursing #job .job-tag {
-	background-color: var(--specialnursing4);
-}
-@media only screen and (max-width: 767px) {
-	#specialnursing .mv-title::before {
-		z-index: 1;
-	}
-	#specialnursing .main {
-		height: 454px;
-	}
-	#specialnursing #sineCanvas {
-		z-index: 0;
-	}
-	#specialnursing h2 .service-name {
-		width: 70%;
-	}
-	#specialnursing .mv-title {
-		top: 101px;
-		z-index: auto;
-	}
-	#specialnursing .main .main-inner .register {
-		position: relative;
-		bottom: -112px;
-	}
-	#specialnursing .mv_image02 {
-		position: absolute;
-		width: 38vw;
-		left: 0;
-		bottom: -217px;
-		z-index: 2;
-		right: 0;
-		background-position: calc(50% - 31px) 0;
-		height: 29vw;
-	}
-	#specialnursing #merit .merit-item .second {
-		height: 209px;
-	}
-	#specialnursing .mv_image03 {
-		width: 100%;
-		top: auto;
-		right: 0;
-		z-index: 1;
-		height: 165px;
-		bottom: -217px;
-		background-position: calc(50% + 70px) 0;
-		left: 0;
-	}
-	#specialnursing .mv_image_wrap {
-		width: 100%;
-		z-index: auto;
-		text-align: center;
-	}
-	#specialnursing .summary .text p {
-		padding: 11px 21px 77px;
-	}
-	#specialnursing .summary .text {
-		width: 100%;
-	}
-	#specialnursing .summary::before {
-		bottom: -88px;
-	}
-	#specialnursing #job .content_ttl::before {
-		width: 100%;
-		background-size: 240px;
-		background-position: center;
-		left: 0;
-	}
-	#specialnursing #voice .content_ttl::before {
-		left: 26%;
-		top: 48px;
-		right: 50%;
-		width: 100%;
-		margin: 0 auto 100px;
-	}
-	#specialnursing .main::before {
-		display: none;
-	}
-	#specialnursing .main .main-inner .copy {
-		background-color: #ffffffc2;
 	}
 }
 
