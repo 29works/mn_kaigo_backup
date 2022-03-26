@@ -113,4 +113,7 @@
 		width: 190px;
 		bottom: 8px;
 	}
+	#paidnursing #merit .merit-item .second {
+		height: auto;
+	}
 }
