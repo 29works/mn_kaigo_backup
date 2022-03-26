@@ -205,8 +205,9 @@ h2 span {
 	content: '';
 	position: absolute;
 	width: 50px;
-	height: 50px;
-	background: center / 6vw no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_deco.svg);
+	height: 39px;
+	background: center / 34px no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_deco.svg);
+	right: -11px;
 }
 @media only screen and (max-width: 374px) {
 	.register .btn {
