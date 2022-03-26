@@ -146,20 +146,19 @@
 		position: relative;
 		bottom: -112px;
 	}
-
 	#specialnursing .mv_image01 {
 		width: 100%;
-		height: 67vw;
+		height: 56vw;
 		left: -100px;
-		bottom: -40px;
+		bottom: 3px;
 		background-position: left;
 	}
 	#specialnursing .mv_image02 {
 		width: 100%;
-		height: 38vw;
+		height: 41vw;
 		right: 0;
 		left: 0;
-		bottom: -217px;
+		bottom: -254px;
 		z-index: 2;
 		background-position: calc(50% - 31px) 0;
 	}
@@ -169,11 +168,16 @@
 		right: 0;
 		z-index: 1;
 		height: 165px;
-		bottom: -217px;
+		bottom: -264px;
 		background-position: calc(50% + 70px) 0;
 		left: 0;
 	}
 	#specialnursing .mv_image04 {
+		width: 100%;
+		height: 62vw;
+		right: 8px;
+		bottom: -12px;
+		background-position: right;
 	}
 	#specialnursing #merit .merit-item .second {
 		height: 209px;

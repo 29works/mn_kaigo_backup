@@ -1054,7 +1054,7 @@ header
 	#job::before {
 		width: 100%;
 		background-size: 134px;
-		background-position: 31% bottom, 68% bottom;
+		background-position: 23% bottom, 75% bottom;
 	}
 	.salary::before {
 		width: 24px;
