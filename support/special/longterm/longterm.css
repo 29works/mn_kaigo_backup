@@ -125,6 +125,7 @@
 	#longterm #job .job-wrap,
 	#longterm #job .job-detail {
 		width: 100%;
+		white-space: inherit;
 	}
 	#longterm #job .swiper-slide {
 		height: auto;
