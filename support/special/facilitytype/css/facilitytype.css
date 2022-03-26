@@ -214,7 +214,14 @@ h2 span {
 	background: center / 34px no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_deco.svg);
 	right: -11px;
 }
-@media only screen and (max-width: 639px) {
+@media only screen and (max-width: 767px) {
+	.btn_job_entry {
+		width: 90%;
+	}
+	.btn_job_entry a {
+		font-size: 14px;
+		padding: 12px 16px 12px 57px;
+	}
 	.btn_job_entry a::after {
 		display: none;
 	}
@@ -1129,8 +1136,8 @@ header
 		border-radius: 8px;
 	}
 	#job .swiper-slide .btn_job_entry a::before {
-		background-size: 14vw;
-		left: 2px;
+		background-size: 13vw;
+		left: -10px;
 	}
 	#job .swiper-slide {
 		height: auto;
