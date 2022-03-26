@@ -208,8 +208,10 @@ h2 span {
 		padding: 1em 0 1em 3.5em;
 	}
 	.register .free {
-		font-size: 16px;
-		left: 11px;
+		font-size: 14px;
+		left: 10px;
+		padding: 13px;
+		top: -17px;
 	}
 }
 /* ---------------------------
@@ -867,6 +869,9 @@ header
 	#merit .first {
 		padding-bottom: 0;
 	}
+	#merit .merit-item .second {
+		height: 315px;
+	}
 }
 /*---------------------------- job ---------------------------*/
 #job {
@@ -1369,6 +1374,12 @@ header
 	#service .table .bb2 {
 		height: 136px;
 	}
+	#service img,
+	#flow h2 img {
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 374px) {
 }
 /*---------------------------- voice ---------------------------*/
 #voice {
