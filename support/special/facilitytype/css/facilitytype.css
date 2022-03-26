@@ -859,14 +859,14 @@ header
 		position: relative;
 		display: flex;
 		flex-wrap: nowrap;
-		justify-content: space-between;
 		flex-direction: column;
+		justify-content: flex-start;
+		margin-right: 30px;
 		padding: 4px 0 0;
-		box-sizing: border-box;
 		align-items: stretch;
 		width: 100%;
+		box-sizing: border-box;
 		z-index: 1;
-		margin-right: 30px;
 	}
 	#merit .merit-item:first-of-type {
 		margin-left: 20px;
@@ -902,6 +902,10 @@ header
 	#merit .merit-item .first {
 		padding-bottom: 0;
 	}
+	#merit .merit-item .second {
+		padding: 10px 20px;
+		height: auto;
+	}
 }
 @media only screen and (max-width: 376px) {
 	#merit .merit-item .first {
@@ -912,9 +916,6 @@ header
 	}
 	#merit .first {
 		padding-bottom: 0;
-	}
-	#merit .merit-item .second {
-		height: 315px;
 	}
 }
 /*---------------------------- job ---------------------------*/
@@ -1137,6 +1138,9 @@ header
 		width: 19vw;
 		height: 19vw;
 		border-radius: 8px;
+	}
+	#job .swiper-slide {
+		height: auto;
 	}
 	#job .swiper-slide .btn_job_entry a::before {
 		background-size: 13vw;
