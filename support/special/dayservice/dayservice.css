@@ -42,16 +42,13 @@
 	width: 174px;
 	height: 37px;
 	top: 96px;
-	right: 0;
-	left: 316px;
-	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_ttl.svg) no-repeat;
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_ttl.svg);
 }
 #dayservice #voice .content_ttl::before {
 	width: 211px;
 	height: 40px;
-	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_ttl_invert.svg) no-repeat;
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_ttl_invert.svg);
 	top: 86px;
-	left: 395px;
 }
 @media only screen and (max-width: 767px) {
 	#dayservice .summary .text p {
@@ -66,11 +63,7 @@
 		left: 0;
 	}
 	#dayservice #voice .content_ttl::before {
-		left: 25%;
 		top: 48px;
-		right: 50%;
-		width: 100%;
-		margin: 0 auto 100px;
 	}
 	#dayservice #merit .merit-item .second {
 		padding-top: 14px;

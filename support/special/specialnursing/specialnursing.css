@@ -98,22 +98,16 @@
 }
 #specialnursing #job .content_ttl::before,
 #specialnursing #voice .content_ttl::before {
-	content: '';
-	position: absolute;
-	display: block;
 	top: 96px;
-	right: 0;
 	width: 312px;
 	height: 42px;
-	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_ttl.svg) no-repeat;
-	left: 249px;
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_ttl.svg);
 }
 #specialnursing #voice .content_ttl::before {
 	width: 314px;
 	height: 40px;
-	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_ttl_invert.svg) no-repeat;
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_ttl_invert.svg);
 	top: 86px;
-	left: 323px;
 }
 #specialnursing h2 .service-name {
 	bottom: 3px;
@@ -209,11 +203,7 @@
 		left: 0;
 	}
 	#specialnursing #voice .content_ttl::before {
-		left: 26%;
 		top: 48px;
-		right: 50%;
-		width: 100%;
-		margin: 0 auto 100px;
 	}
 	#specialnursing .main::before {
 		display: none;

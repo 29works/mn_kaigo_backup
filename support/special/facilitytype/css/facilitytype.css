@@ -1422,8 +1422,9 @@ header
 }
 #voice .content_ttl::before {
 	content: '';
-	position: absolute;
 	display: block;
+	position: absolute;
+	background-repeat: no-repeat;
 	background-position: center;
 }
 #voice .pc_wrap {
@@ -1571,6 +1572,7 @@ header
 		left: 0;
 		right: 50%;
 		width: 100%;
+		margin: 0 auto 100px;
 	}
 	#voice h2 {
 		padding-top: 105px;
