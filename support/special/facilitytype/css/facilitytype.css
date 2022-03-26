@@ -331,7 +331,7 @@ header
 	opacity: 0;
 	transform: translateX(50px);
 }
-.main .main-inner.inviewFade .copy,
+/* .main .main-inner.inviewFade .copy,
 .main .main-inner.inviewFade .title,
 .main .main-inner.inviewFade .satisfied,
 .main .main-inner.inviewFade .main-btn {
@@ -350,7 +350,7 @@ header
 	transform: translateX(0);
 	transition: 0.8s;
 	transition-delay: 0.8s;
-}
+} */
 .mv-title {
 	display: flex;
 	flex-direction: column;
@@ -367,26 +367,27 @@ header
 }
 .mv_image01 {
 	z-index: 5;
-	right: -188px;
+	position: relative;
+	width: 170px;
 	height: 170px;
 	background-repeat: no-repeat;
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image01.png);
-	width: 170px;
-	position: relative;
-	bottom: -176px;
 	background-size: contain;
+	right: -188px;
+	bottom: -176px;
 }
 .mv_image02 {
+	z-index: 4;
 	position: relative;
 	width: 343px;
 	height: 354px;
-	z-index: 4;
 	background-size: contain;
 	background-repeat: no-repeat;
 	left: -162px;
 	bottom: 168px;
 }
 .mv_image03 {
+	z-index: 3;
 	position: absolute;
 	width: 269px;
 	height: 286px;
@@ -395,24 +396,29 @@ header
 	top: -48px;
 	right: -57px;
 	bottom: 0;
-	z-index: 3;
 }
 .mv_image04 {
+	z-index: 3;
 	position: absolute;
-	top: -46px;
-	left: -170px;
 	width: 186px;
 	height: 168px;
-	z-index: 3;
 	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image04.png);
+	top: -46px;
+	left: -170px;
 }
 @media only screen and (max-width: 767px) {
 	.main {
+		height: 600px;
 		min-height: 1px;
 		background: url(/mn_kaigoshoku/assets/images/support/kaigofukushi/main_bg_sp.jpg) center top no-repeat;
 		background-size: 100%;
-
-		height: 623px;
+	}
+	.main::before {
+		width: 53vw;
+		height: 53vw;
+		right: 0;
+		left: 37vw;
+		bottom: 52px;
 	}
 	.main .main-inner {
 		margin: 0 auto;
@@ -492,13 +498,6 @@ header
 		background-size: 27vw;
 		background-size: contain;
 		height: 30vw;
-	}
-	.main::before {
-		width: 53vw;
-		height: 53vw;
-		right: 0;
-		left: 37vw;
-		bottom: 52px;
 	}
 }
 @media only screen and (max-width: 374px) {
