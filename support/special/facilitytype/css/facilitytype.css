@@ -940,11 +940,6 @@ header
 	width: 800px;
 	margin: 0 auto;
 }
-#job .content_ttl::before {
-	content: '';
-	position: absolute;
-	display: block;
-}
 #job .content_ttl img {
 	width: 40%;
 }
@@ -1152,6 +1147,25 @@ header
 	#merit h2,
 	#job .content_ttl {
 		font-size: 5vw;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.jobofferlist .swiper-wrapper {
+		flex-wrap: wrap;
+		display: flex;
+		align-items: stretch;
+		flex-direction: row;
+		width: 890px;
+		justify-content: space-between;
+		margin: 0 auto;
+	}
+	.jobofferlist .swiper-slide {
+		width: 48%;
+	}
+	.jobofferlist .swiper-button-prev,
+	.jobofferlist .swiper-button-next,
+	.jobofferlist .swiper-pagination {
+		display: none;
 	}
 }
 /*---------------------------- service ---------------------------*/
@@ -1420,10 +1434,12 @@ header
 	text-align: center;
 	letter-spacing: 0.1em;
 }
-#voice .content_ttl::before {
+#voice .content_ttl::before,
+#job .content_ttl::before {
 	content: '';
 	display: block;
 	position: absolute;
+	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
