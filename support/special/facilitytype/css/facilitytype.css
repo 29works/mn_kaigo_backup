@@ -195,11 +195,18 @@ h2 span {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 1;
-	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_back.svg);
+	background: center / 86px no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_back.svg);
 	border-radius: 521px;
 	top: -29px;
 	left: 17px;
 	transform: rotate(340deg);
+}
+.register .free::after {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: center / 6vw no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_deco.svg);
 }
 @media only screen and (max-width: 374px) {
 	.register .btn {
