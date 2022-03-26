@@ -103,7 +103,6 @@
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_ttl.svg);
 }
 #specialnursing #voice .content_ttl::before {
-	width: 314px;
 	height: 40px;
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/specialnursing_ttl_invert.svg);
 	top: 86px;

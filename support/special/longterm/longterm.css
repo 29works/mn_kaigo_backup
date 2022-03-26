@@ -67,7 +67,6 @@
 	background-color: var(--longterm2);
 }
 #longterm #voice .content_ttl::before {
-	width: 211px;
 	height: 40px;
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/longterm_ttl_invert.svg);
 	top: 86px;
@@ -94,7 +93,6 @@
 	}
 	#longterm #voice .content_ttl::before {
 		top: 48px;
-		width: 100%;
 	}
 	#longterm .summary {
 		padding-bottom: 30px;

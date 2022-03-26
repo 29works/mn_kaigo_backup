@@ -44,7 +44,6 @@
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_ttl.svg);
 }
 #dayservice #voice .content_ttl::before {
-	width: 211px;
 	height: 40px;
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_ttl_invert.svg);
 	top: 86px;
