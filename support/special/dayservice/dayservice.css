@@ -1,0 +1,82 @@
+/* デイサービス dayservice */
+@charset 'utf-8';
+#dayservice .main .main-wrap,
+#dayservice .localNav a:hover,
+#dayservice.localNav li::after,
+#dayservice #job {
+	background: var(--dayservice);
+}
+#dayservice .main::before,
+#dayservice .summary {
+	background: var(--dayservice2);
+}
+
+#dayservice #merit .merit-item {
+	border: 11px solid var(--dayservice2);
+}
+#dayservice .highlighter {
+	color: var(--dayservice3);
+	background: linear-gradient(#fff0 50%, #fff0 60%, var(--dayservice) 60%);
+}
+#dayservice #job .highlighter {
+	color: #444;
+	background: linear-gradient(#fff0 50%, #fff0 60%, #9fe7ff 60%);
+}
+#dayservice .summary::before {
+	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_summary02.png);
+}
+#dayservice #merit .merit-item h3::before,
+#dayservice #merit .merit-item h3 span {
+	color: var(--dayservice3);
+}
+#dayservice .mv_image02 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image02.png);
+}
+#dayservice .mv_image03 {
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image03.png);
+}
+#dayservice .localNav li::after {
+	border: solid 1px var(--dayservice);
+}
+#dayservice #job .content_ttl::before,
+#dayservice #voice .content_ttl::before {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 96px;
+	right: 0;
+	width: 174px;
+	height: 37px;
+	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_ttl.svg) no-repeat;
+	left: 316px;
+}
+#dayservice #voice .content_ttl::before {
+	width: 211px;
+	height: 40px;
+	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/dayservice_ttl_invert.svg) no-repeat;
+	top: 86px;
+	left: 395px;
+}
+@media only screen and (max-width: 767px) {
+	#dayservice .summary .text p {
+		padding: 11px 21px 80px;
+	}
+	#dayservice .mv_image02 {
+		left: 20px;
+	}
+	#dayservice #job .content_ttl::before {
+		width: 100%;
+		background-position: center;
+		left: 0;
+	}
+	#dayservice #voice .content_ttl::before {
+		left: 25%;
+		top: 48px;
+		right: 50%;
+		width: 100%;
+		margin: 0 auto 100px;
+	}
+	#dayservice #merit .merit-item .second {
+		padding-top: 14px;
+	}
+}
