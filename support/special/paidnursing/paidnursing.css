@@ -80,6 +80,9 @@
 	height: 328px;
 }
 @media only screen and (max-width: 767px) {
+	.main {
+		height: 480px;
+	}
 	#paidnursing .mv_image_wrap {
 		width: 100%;
 		bottom: -122px;
