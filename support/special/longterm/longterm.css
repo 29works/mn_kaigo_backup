@@ -25,7 +25,7 @@
 }
 #longterm #merit .merit-item {
 	background: var(--longterm2);
-	border: 11px solid var(--longterm);
+	border: 11px solid var(--longterm4);
 }
 #longterm #merit .merit-item h2 {
 	color: var(--longterm3);
@@ -37,7 +37,7 @@
 }
 #longterm .highlighter {
 	color: var(--longterm3);
-	background: linear-gradient(#fff0 50%, #fff0 60%, var(--longterm) 60%);
+	background: linear-gradient(#fff0 50%, #fff0 60%, var(--longterm4) 60%);
 }
 #longterm #job .highlighter {
 	color: #444;
@@ -70,7 +70,7 @@
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/longterm_ttl.svg);
 }
 #longterm #job .job-tag {
-	background-color: var(--longterm2);
+	background-color: var(--longterm4);
 }
 #longterm #voice .content_ttl::before {
 	height: 40px;
