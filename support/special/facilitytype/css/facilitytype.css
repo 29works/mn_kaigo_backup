@@ -188,18 +188,18 @@ h2 span {
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 .register .free {
+	position: absolute;
+	z-index: 1;
+	padding: 18px;
+	color: white;
 	font-weight: bold;
 	font-size: 18px;
-	background-color: #e21c1c;
+	line-height: 1;
+	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_back.svg);
 	border-radius: 521px;
-	transform: rotate(340deg);
-	position: absolute;
 	top: -29px;
 	left: 17px;
-	color: white;
-	z-index: 1;
-	line-height: 1;
-	padding: 18px;
+	transform: rotate(340deg);
 }
 @media only screen and (max-width: 374px) {
 	.register .btn {
