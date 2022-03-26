@@ -2284,10 +2284,6 @@ footer .footer_link a:before {
 		left: 0;
 	}
 	.center-align .mv_image01 {
-		/* width: 17vw;
-		bottom: 0;
-		top: 9px;
-		right: -290px; */
 		width: 72vw;
 		top: auto;
 		bottom: 38px;
@@ -2347,6 +2343,10 @@ footer .footer_link a:before {
 		height: 44vw;
 		left: 50px;
 	}
+	.square .mv_image02,
+	.square .mv_image03 {
+		position: absolute;
+	}
 	.square .mv_image02 {
 		width: 40vw;
 		bottom: -143px;
@@ -2354,15 +2354,15 @@ footer .footer_link a:before {
 		right: 20px;
 		height: 26vw;
 	}
+	.square .mv_image03 {
+		right: auto;
+		left: 20px;
+	}
 	.square .mv_image04 {
 		left: auto;
 		right: 90px;
 		width: 22vw;
 		top: -50px;
-	}
-	.square .mv_image03 {
-		right: auto;
-		left: 20px;
 	}
 }
 @media only screen and (max-width: 490px) {
@@ -2566,125 +2566,6 @@ footer .footer_link a:before {
 @media only screen and (max-width: 374px) {
 	#paidnursing .mv_image_wrap {
 		bottom: -74px;
-	}
-}
-/* 介護老人保健施設 */
-#longterm .main .main-wrap,
-#longterm .localNav a:hover,
-#longterm.localNav li::after,
-#longterm #job {
-	background: var(--longterm);
-}
-#longterm .main::before {
-	background: var(--longterm2);
-}
-#longterm .summary {
-	background: var(--longterm2);
-	height: 248px;
-	text-align: center;
-}
-#longterm .summary .text h2 {
-	margin-bottom: 0;
-}
-#longterm .summary-image {
-	width: 167px;
-}
-#longterm #merit .merit-item {
-	background: var(--longterm2);
-	border: 11px solid var(--longterm);
-}
-#longterm #merit .merit-item h2 {
-	color: var(--longterm3);
-	top: -32px;
-}
-#longterm #merit .merit-item h3 span,
-#longterm #merit .merit-item h3::before {
-	color: var(--longterm3);
-}
-#longterm .highlighter {
-	color: var(--longterm3);
-	background: linear-gradient(#fff0 50%, #fff0 60%, var(--longterm) 60%);
-}
-#longterm #job .highlighter {
-	color: #444;
-	background: linear-gradient(#fff0 50%, #fff0 60%, #9fe7ff 60%);
-}
-#longterm .mv_image02 {
-	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image02_longterm.png);
-}
-#longterm .mv_image03 {
-	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image03_longterm.png);
-}
-#longterm .mv_image04 {
-	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image04_longterm.png);
-}
-#longterm .localNav li::after {
-	border: solid 1px var(--longterm);
-}
-#longterm .summary::before {
-	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/longterm_summary02.png);
-	bottom: 18px;
-	right: 27px;
-}
-#longterm #job .content_ttl::before,
-#longterm #voice .content_ttl::before {
-	content: '';
-	position: absolute;
-	display: block;
-	top: 96px;
-	right: 0;
-	width: 298px;
-	height: 42px;
-	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/longterm_ttl.svg) no-repeat;
-	left: 265px;
-}
-#longterm #job .job-tag {
-	background-color: var(--longterm2);
-}
-#longterm #voice .content_ttl::before {
-	width: 211px;
-	height: 40px;
-	background: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/longterm_ttl_invert.svg) no-repeat;
-	top: 86px;
-	left: 395px;
-}
-#longterm h2 .service-name {
-	bottom: 4px;
-	margin-right: 0;
-}
-#longterm #merit .merit-item .second {
-	height: 195px;
-}
-@media only screen and (max-width: 767px) {
-	#longterm .mv_image02,
-	#longterm .mv_image03 {
-		position: absolute;
-	}
-	#longterm .summary-image {
-		width: 126px;
-		left: -64px;
-		position: relative;
-	}
-	#longterm #job .content_ttl::before {
-		width: 100%;
-		background-position: center;
-		left: 0;
-	}
-	#longterm #voice .content_ttl::before {
-		left: 16%;
-		top: 48px;
-		right: 50%;
-		width: 100%;
-		margin: 0 auto 100px;
-	}
-	#longterm .summary {
-		padding-bottom: 30px;
-		height: auto;
-	}
-	#longterm .summary::before {
-		width: 135px;
-		top: -10px;
-		right: 15px;
 	}
 }
 
