@@ -45,9 +45,6 @@
 	color: #444;
 	background: linear-gradient(#fff0 50%, #fff0 60%, #9fe7ff 60%);
 }
-#homevisit #job .swiper-slide {
-	height: 255px;
-}
 #homevisit .mv_image02 {
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image02_homevisit.png);
 }
