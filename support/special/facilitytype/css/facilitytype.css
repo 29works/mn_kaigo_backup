@@ -82,6 +82,9 @@ h2 span {
 	h2 {
 		font-size: 6vw;
 	}
+	h2 .service-name {
+		bottom: 7px;
+	}
 }
 
 /*---------------------------- CTA ----------------------------*/
@@ -1019,15 +1022,15 @@ header
 }
 #job .swiper-slide:nth-of-type(1) .btn_job_entry a::before,
 #job .swiper-slide:nth-of-type(4) .btn_job_entry a::before {
-	background: bottom / no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu01.svg);
+	background: bottom url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu01.svg) no-repeat;
 }
 #job .swiper-slide:nth-of-type(2) .btn_job_entry a::before,
 #job .swiper-slide:nth-of-type(5) .btn_job_entry a::before {
-	background: bottom / no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu02.svg);
+	background: bottom url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu02.svg) no-repeat;
 }
 #job .swiper-slide:nth-of-type(3) .btn_job_entry a::before,
 #job .swiper-slide:nth-of-type(6) .btn_job_entry a::before {
-	background: bottom / no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu03.svg);
+	background: bottom url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu03.svg) no-repeat;
 }
 #job .job-tag {
 	display: inline-block;
@@ -1088,8 +1091,8 @@ header
 		overflow: hidden;
 	}
 	#job .swiper-slide .btn_job_entry a::before {
-		left: 2px;
 		background-size: 14vw;
+		left: 2px;
 	}
 	#job .swiper-slide {
 		width: 80%;
