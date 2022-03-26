@@ -2,7 +2,7 @@
 /* 介護老人保健施設 */
 #homevisit .main .main-wrap,
 #homevisit .localNav a:hover,
-#homevisit.localNav li::after,
+#homevisit .localNav li::after,
 #homevisit #job {
 	background: var(--homevisit);
 }

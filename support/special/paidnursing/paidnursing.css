@@ -1,15 +1,8 @@
 @charset 'utf-8';
 /* 有料老人ホーム */
-#paidnursing .mv-title::before {
-	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/main_title_grouphome_deco.png);
-}
-#paidnursing .mv_image_wrap {
-	width: 800px;
-	margin: 0 auto;
-}
 #paidnursing .main .main-wrap,
 #paidnursing .localNav a:hover,
-#paidnursing.localNav li::after,
+#paidnursing .localNav li::after,
 #paidnursing #job {
 	background: var(--paidnursing);
 	padding-top: 0;
@@ -19,6 +12,13 @@
 	width: 300px;
 	height: 300px;
 	left: 50%;
+}
+#paidnursing .mv_image_wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+#paidnursing .mv-title::before {
+	background: center / contain no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/main_title_grouphome_deco.png);
 }
 #paidnursing .summary {
 	background: var(--paidnursing2);

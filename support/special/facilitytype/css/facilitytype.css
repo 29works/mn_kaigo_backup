@@ -2296,9 +2296,9 @@ footer .footer_link a:before {
 	.square .main {
 		height: 510px;
 	}
-	.square .main .main-inner {
+	/* .square .main .main-inner {
 		padding-top: 0;
-	}
+	} */
 	.square .mv_image_wrap {
 		height: 47px;
 	}

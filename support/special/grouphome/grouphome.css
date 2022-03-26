@@ -2,7 +2,7 @@
 /* grouphome */
 #grouphome .main .main-wrap,
 #grouphome .localNav a:hover,
-#grouphome.localNav li::after,
+#grouphome .localNav li::after,
 #grouphome #job {
 	background: var(--grouphome);
 }
