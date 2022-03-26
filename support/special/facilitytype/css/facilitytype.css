@@ -355,11 +355,11 @@ header
 }
 .mv-title {
 	display: flex;
+	position: relative;
 	flex-direction: column;
 	justify-content: space-evenly;
 	height: 305px;
-	position: relative;
-	padding-right: 44px;
+	/* padding-right: 44px; */
 	top: 20px;
 	left: -39px;
 }
@@ -2345,7 +2345,7 @@ footer .footer_link a:before {
 	}
 	/* square */
 	.square .main {
-		height: 510px;
+		height: 518px;
 	}
 	.square .mv_image_wrap {
 		height: 47px;
