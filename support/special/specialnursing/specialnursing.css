@@ -146,8 +146,7 @@
 		bottom: -112px;
 	}
 	#specialnursing .mv_image02 {
-		position: absolute;
-		width: 38vw;
+		width: 100%;
 		left: 0;
 		bottom: -217px;
 		z-index: 2;
@@ -197,8 +196,5 @@
 	}
 	#specialnursing .main::before {
 		display: none;
-	}
-	#specialnursing .main .main-inner .copy {
-		background-color: #ffffffc2;
 	}
 }

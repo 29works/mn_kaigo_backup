@@ -2164,6 +2164,7 @@ footer .footer_link a:before {
 .center-align .main .main-inner {
 	height: 165px;
 }
+
 .center-align .mv-title::before {
 	position: absolute;
 	content: '';
@@ -2240,9 +2241,15 @@ footer .footer_link a:before {
 	.center-align .mv_image_wrap {
 		height: 333px;
 	}
+	.center-align .main .main-inner .copy {
+		background-color: #ffffffc2;
+	}
 	.center-align .mv-title {
 		top: 190px;
 		left: 0;
+	}
+	.center-align .mv_image {
+		position: absolute;
 	}
 	.center-align .mv_image01 {
 		width: 72vw;
