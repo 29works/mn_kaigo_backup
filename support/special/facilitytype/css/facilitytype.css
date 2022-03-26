@@ -1020,12 +1020,12 @@ header
 }
 #job .swiper-slide .btn_job_entry a::before {
 	content: '';
+	z-index: 3;
 	position: absolute;
 	width: 66px;
 	height: 69px;
-	bottom: 0px;
-	z-index: 3;
 	left: 44px;
+	bottom: -1px;
 	background-size: contain;
 	background-position: bottom;
 	background-repeat: no-repeat;
