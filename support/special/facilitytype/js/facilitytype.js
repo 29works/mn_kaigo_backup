@@ -24,7 +24,7 @@ window.addEventListener(
 						nextEl: '.swiper-button-next',
 						prevEl: '.swiper-button-prev',
 					},
-					slidesPerView: 'auto',
+					slidesPerView: '1.5',
 					centeredSlides: true,
           spaceBetween: 16,
 				});
