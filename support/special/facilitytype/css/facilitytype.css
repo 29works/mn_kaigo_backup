@@ -1963,7 +1963,7 @@ footer {
 	}
 	#info .web,
 	#info .tel {
-		width: 80%;
+		width: 92%;
 	}
 	#info .web {
 		margin-top: 65px;
@@ -2057,7 +2057,11 @@ footer .footer_link a:before {
 		grid-column-end: 4;
 	}
 }
-
+@media only screen and (max-width: 376px) {
+	footer .footer_link {
+		font-size: 11px;
+	}
+}
 @media print, screen and (min-width: 375px) {
 	.follow_btn--ningenkankei .main_txt {
 		font-size: 22px;
@@ -2071,18 +2075,18 @@ footer .footer_link a:before {
 	.follow_btn--kosodate .main_txt span {
 		font-size: 18px;
 	}
+	#info .web a {
+		font-size: 15px;
+	}
 }
-
 @media print, screen and (min-width: 768px) {
 	.btn-orange:hover {
 		background-color: #ff717e;
 	}
-
 	.l-wrapper {
 		padding-top: 0;
 		background-color: none;
 	}
-
 	.hero {
 		text-align: center;
 	}
