@@ -571,6 +571,11 @@ header
 		font-size: 16px;
 	}
 }
+@media only screen and (max-width: 374px) {
+	.localNav a {
+		font-size: 15px;
+	}
+}
 
 /* summary
 ---------------------------------------------------------------------------- */
@@ -642,6 +647,11 @@ header
 	.summary .image {
 		margin: 0 auto;
 		width: 76.92%;
+	}
+}
+@media only screen and (max-width: 374px) {
+	.summary .text h2 span {
+		font-size: 5vw;
 	}
 }
 
@@ -793,8 +803,8 @@ header
 		margin: 0 auto;
 		background-size: 100%;
 	}
-
 	#merit h2 {
+		font-size: 23px;
 		line-height: 1.4;
 		margin: 70px auto 21px;
 		width: 80%;
@@ -830,6 +840,7 @@ header
 	}
 	#merit .merit-item h3 {
 		margin: 0 auto 10px;
+		font-size: 17px;
 	}
 	#merit .merit-item .image {
 		padding-bottom: 0;
@@ -1123,6 +1134,12 @@ header
 	}
 	#job .swiper-slide h3 {
 		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 374px) {
+	#merit h2,
+	#job .content_ttl {
+		font-size: 5vw;
 	}
 }
 /*---------------------------- service ---------------------------*/
@@ -2101,47 +2118,6 @@ footer .footer_link a:before {
 		line-height: 1.3;
 	}
 }
-@media only screen and (max-width: 767px) {
-	/* .content_ttl h2 img {
-		width: 70%;
-	} */
-	/* #voice .main_menu_voice .ttl_wrap {
-		padding-right: 0;
-	}
-	#voice .main_menu_voice .ttl_wrap .voice_ttl {
-		font-size: 4vw;
-	}
-	#voice .main_menu_voice .ttl_wrap .voice_dtl {
-		font-size: 3.5vw;
-	} */
-	/* #voice .sub_menu_voice li {
-		background-color: #fcfaf6;
-		border-bottom: none;
-	} */
-	/* #voice .pc_wrap ul::before,
-	#voice .pc_wrap ul::after {
-		content: none;
-	} */
-}
-/* @media only screen and (min-width: 768px) {
-	.jobofferlist .swiper-wrapper {
-		flex-wrap: wrap;
-		display: flex;
-		align-items: stretch;
-		flex-direction: row;
-		width: 890px;
-		justify-content: space-between;
-		margin: 0 auto;
-	}
-	.jobofferlist .swiper-slide {
-		width: 48%;
-	}
-	.jobofferlist .swiper-button-prev,
-	.jobofferlist .swiper-button-next,
-	.jobofferlist .swiper-pagination {
-		display: none;
-	}
-} */
 
 /* ---------------------------
 共通 / mv画像の配置
@@ -2303,9 +2279,6 @@ footer .footer_link a:before {
 	.square .main {
 		height: 510px;
 	}
-	/* .square .main .main-inner {
-		padding-top: 0;
-	} */
 	.square .mv_image_wrap {
 		height: 47px;
 	}
@@ -2418,13 +2391,5 @@ footer .footer_link a:before {
 @media only screen and (max-width: 374px) {
 	.floating .btn-entry::after {
 		display: none;
-	}
-}
-
-@media only screen and (max-width: 374px) {
-	h2,
-	#merit h2,
-	#job .content_ttl {
-		font-size: 6vw;
 	}
 }
