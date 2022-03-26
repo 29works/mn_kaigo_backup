@@ -105,6 +105,9 @@
 		left: -96px;
 		position: relative;
 	}
+	#homevisit .mv_image03 {
+		left: 20px;
+	}
 	#homevisit .mv_image04 {
 		right: 65px;
 		top: -25px;
