@@ -122,7 +122,8 @@
 	#longterm #merit .merit-item .second {
 		height: 288px;
 	}
-	#longterm #job .job-wrap {
+	#longterm #job .job-wrap,
+	#longterm #job .job-detail {
 		width: 100%;
 	}
 	#longterm #job .swiper-slide {
