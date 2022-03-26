@@ -1019,18 +1019,20 @@ header
 	z-index: 3;
 	left: 44px;
 	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
 }
 #job .swiper-slide:nth-of-type(1) .btn_job_entry a::before,
 #job .swiper-slide:nth-of-type(4) .btn_job_entry a::before {
-	background: bottom url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu01.svg) no-repeat;
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu01.svg);
 }
 #job .swiper-slide:nth-of-type(2) .btn_job_entry a::before,
 #job .swiper-slide:nth-of-type(5) .btn_job_entry a::before {
-	background: bottom url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu02.svg) no-repeat;
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu02.svg);
 }
 #job .swiper-slide:nth-of-type(3) .btn_job_entry a::before,
 #job .swiper-slide:nth-of-type(6) .btn_job_entry a::before {
-	background: bottom url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu03.svg) no-repeat;
+	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/job_illu03.svg);
 }
 #job .job-tag {
 	display: inline-block;
