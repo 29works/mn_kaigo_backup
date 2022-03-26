@@ -50,6 +50,7 @@
 }
 #homevisit .mv_image03 {
 	background-image: url(/mn_kaigoshoku/assets/images/support/special/facilitytype/mv_image03_homevisit.png);
+	left: -230px;
 }
 #homevisit .mv_image04 {
 	opacity: 0.8;
@@ -101,7 +102,7 @@
 	}
 	#homevisit .summary-image {
 		width: 126px;
-		left: -76px;
+		left: -96px;
 		position: relative;
 	}
 	#homevisit .mv_image04 {
