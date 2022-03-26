@@ -83,6 +83,9 @@
 	.main {
 		height: 480px;
 	}
+	#merit .merit-item h2 {
+		bottom: 86px;
+	}
 	#paidnursing .mv_image_wrap {
 		width: 100%;
 		bottom: -122px;
