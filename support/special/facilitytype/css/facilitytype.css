@@ -1,29 +1,34 @@
 @charset 'utf-8';
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+/*
+施設形態別特集 6ページのルートCSSです。
+各ページのCSSは各ページフォルダ内にあります。
+:root疑似クラス内に各ページのカラーをCSS変数で設定をしました。
+*/
 :root {
+	/* デイサービス */
 	--dayservice: #ffdc4c;
 	--dayservice2: #fff2c0;
 	--dayservice3: #00a4cd;
-
+	/* グループホーム */
 	--grouphome: #ffce95;
 	--grouphome2: #ffd8c0;
 	--grouphome3: #3e71be;
-
 	/* 有料老人ホーム */
 	--paidnursing: #ffa7a3;
 	--paidnursing2: #ffe4e3;
 	--paidnursing3: #3e71be;
-
+	/* 介護老人保健施設 */
 	--longterm: #d2edeb;
 	--longterm2: #fff5cc;
 	--longterm3: #1baa9f;
 	--longterm4: #ffe886;
-
+	/* 特別養護老人ホーム */
 	--specialnursing: #b9e6f0;
 	--specialnursing2: #ffdcc9;
 	--specialnursing3: #00b6f1;
 	--specialnursing4: #fff9cb;
-
+	/* 訪問介護 */
 	--homevisit: #dbe3ff;
 	--homevisit2: #fff2c0;
 	--homevisit3: #e2740f;
