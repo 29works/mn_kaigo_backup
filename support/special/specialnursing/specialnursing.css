@@ -206,4 +206,8 @@
 	#specialnursing .main::before {
 		display: none;
 	}
+	#specialnursing #job .content_ttl::before {
+		background-size: 68vw;
+		background-position: center;
+	}
 }
