@@ -1,10 +1,32 @@
 @charset 'utf-8';
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
-/*
+/* ===================================================================
+
+マイナビ介護職
 施設形態別特集 6ページのルートCSSです。
 各ページのCSSは各ページフォルダ内にあります。
 :root疑似クラス内に各ページのカラーをCSS変数で設定をしました。
-*/
+* --------------------------------------------------------------------
+*
+* header
+* main
+* localNav / ページ内 Nav
+* summary
+* # merit
+* # job
+* # service
+* # voice
+* # flow
+* # info
+* footer
+* 共通 / mv画像の配置
+*   .center-align ：　mvのタイトルが真ん中にある場合
+*   .square ：　mvの画像が四角い場合　
+
+* btn
+*   #page-top
+*   floating
+--------------------------------------------------------------------*/
 :root {
 	/* デイサービス */
 	--dayservice: #ffdc4c;
@@ -101,170 +123,11 @@ h2 span {
 	}
 }
 
-/*---------------------------- CTA ----------------------------*/
-.btn_job_entry {
-	height: 56px;
-	display: inline-block;
-	vertical-align: middle;
-	border-radius: 100px;
-	text-align: center;
-	width: 87%;
-	font-size: 20px;
-	box-sizing: border-box;
-	margin-bottom: 14px;
-	position: relative;
-}
-.btn_job_entry a {
-	display: block;
-	position: relative;
-	z-index: 2;
-	overflow: hidden;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-	font-weight: bold;
-	padding: 12px 0 12px 36px;
-	font-size: 16px;
-	width: 100%;
-	background-color: #051a2b;
-	border-radius: 300px;
-	overflow: revert;
-}
-.btn_job_entry a::after {
-	display: block;
-	content: '';
-	position: absolute;
-	top: 50%;
-	right: 15px;
-	width: 0;
-	height: 0;
-	margin-top: -5px;
-	border: 5px solid transparent;
-	border-left: 5px solid #fff;
-}
-.btn_job_entry:hover {
-	transition-duration: 0.3s;
-	opacity: 0.7;
-	transition-delay: 0.6s;
-}
-.btn-entry {
-	position: relative;
-	display: inline-block;
-	margin: 0px auto;
-	width: 100%;
-	max-width: 558px;
-	color: rgb(255, 255, 255);
-	text-align: center;
-	font-weight: 500;
-	text-decoration: none;
-	letter-spacing: 0.06em;
-	border-radius: 300px;
-	background: #051a2b;
-	font-size: 13px;
-}
-.btn-entry span {
-	padding: 6px 10px;
-	border-radius: 30px;
-	background: #e21c1c;
-	margin-right: 4px;
-}
-.register a {
-	position: relative;
-}
-.register p {
-	padding: 0.8em 1.8em 0.8em 5.3em;
-	text-align: center;
-	font-weight: bold;
-	font-size: 18px;
-	color: #ffffff;
-	box-sizing: border-box;
-	background-color: #051a2b;
-	border-radius: 30px;
-}
-.register .btn {
-	position: relative;
-	padding: unset;
-	line-height: unset;
-	color: white;
-	background: none;
-	box-shadow: none;
-}
-.register .btn::after {
-	position: absolute;
-	content: '';
-	display: block;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	transition: all 0.3s ease-out;
-	border-radius: 100px;
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-}
-.register .free {
-	position: absolute;
-	z-index: 1;
-	padding: 18px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 1;
-	background: center / 86px no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_back.svg);
-	border-radius: 521px;
-	top: -29px;
-	left: 17px;
-	transform: rotate(340deg);
-}
-.register .free::after {
-	content: '';
-	position: absolute;
-	width: 50px;
-	height: 39px;
-	background: center / 34px no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_deco.svg);
-	right: -11px;
-}
-@media only screen and (max-width: 767px) {
-	.btn_job_entry {
-		width: 90%;
-	}
-	.btn_job_entry a {
-		font-size: 13px;
-		padding: 12px 16px 12px 57px;
-	}
-	.btn_job_entry a::after {
-		display: none;
-	}
-}
-@media only screen and (max-width: 374px) {
-	.register .btn {
-		width: 90%;
-		border-radius: 600px;
-	}
-	.register p {
-		font-size: 16px;
-		padding: 1em 0 1em 3.5em;
-	}
-	.register .free {
-		padding: 13px;
-		top: -17px;
-		left: 10px;
-		font-size: 14px;
-		background-size: 21vw;
-	}
-	.register .free::after {
-		background-size: 10vw;
-		right: -14px;
-		bottom: -7px;
-	}
-	.btn_job_entry a {
-		font-size: 10px;
-	}
-	.btn_job_entry a::after {
-		display: none;
-	}
-}
-/* ---------------------------
-header
---------------------------- */
+/* ====================================================================
+* header
+*
+*
+* -------------------------------------------------------------------- */
 .header {
 	height: auto;
 	padding: 10px 0;
@@ -303,8 +166,12 @@ header
 		display: block;
 	}
 }
-/* main
----------------------------------------------------------------------------- */
+
+/* ====================================================================
+* main
+*
+*
+* -------------------------------------------------------------------- */
 #sineCanvas {
 	transform: rotateX(180deg);
 	position: absolute;
@@ -540,7 +407,11 @@ header
 	}
 }
 
-/* ページ内 Nav */
+/* ====================================================================
+* localNav / ページ内 Nav
+*
+*
+* -------------------------------------------------------------------- */
 .localNav {
 	display: flex;
 	justify-content: center;
@@ -631,8 +502,11 @@ header
 	}
 }
 
-/* summary
----------------------------------------------------------------------------- */
+/* ====================================================================
+* summary
+*
+*
+* -------------------------------------------------------------------- */
 .summary {
 	margin: 0 auto;
 	display: flex;
@@ -709,8 +583,11 @@ header
 	}
 }
 
-/* merit
----------------------------------------------------------------------------- */
+/* ====================================================================
+* # merit
+*
+*
+* -------------------------------------------------------------------- */
 #merit {
 	padding: 23px 0 10px;
 	text-align: center;
@@ -926,7 +803,12 @@ header
 		padding-bottom: 0;
 	}
 }
-/*---------------------------- job ---------------------------*/
+
+/* ====================================================================
+* # job
+*
+*
+* -------------------------------------------------------------------- */
 #job {
 	position: relative;
 	width: 100%;
@@ -1231,7 +1113,12 @@ header
 		display: none;
 	}
 }
-/*---------------------------- service ---------------------------*/
+
+/* ====================================================================
+* # service
+*
+*
+* -------------------------------------------------------------------- */
 #service {
 	position: relative;
 	margin: 60px auto 0;
@@ -1461,7 +1348,12 @@ header
 		font-size: 14px;
 	}
 }
-/*---------------------------- voice ---------------------------*/
+
+/* ====================================================================
+* # voice
+*
+*
+* -------------------------------------------------------------------- */
 #voice {
 	position: relative;
 	background: center 40% / cover no-repeat url('/mn_kaigoshoku/assets/images/support/special/facilitytype/voice_bg.jpg');
@@ -1668,7 +1560,12 @@ header
 		height: auto;
 	}
 }
-/*---------------------------- flow ---------------------------*/
+
+/* ====================================================================
+* # flow
+*
+*
+* -------------------------------------------------------------------- */
 #flow {
 	margin-top: 2px;
 	position: relative;
@@ -1889,8 +1786,12 @@ header
 		display: block;
 	}
 }
-/*---------------------------- info ---------------------------*/
 
+/* ====================================================================
+* # info
+*
+*
+* -------------------------------------------------------------------- */
 #info {
 	background: #f5f5f5;
 }
@@ -2015,6 +1916,12 @@ footer {
 		background: center / cover no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/info_bg_sp.png);
 	}
 }
+
+/* ====================================================================
+* footer
+*
+*
+* -------------------------------------------------------------------- */
 footer .inner {
 	display: flex;
 	flex-direction: row;
@@ -2090,7 +1997,7 @@ footer .footer_link a:before {
 		font-size: 11px;
 	}
 }
-@media print, screen and (min-width: 375px) {
+/* @media print, screen and (min-width: 375px) {
 	.follow_btn--ningenkankei .main_txt {
 		font-size: 22px;
 	}
@@ -2106,9 +2013,9 @@ footer .footer_link a:before {
 	#info .web a {
 		font-size: 15px;
 	}
-}
+} */
 @media print, screen and (min-width: 768px) {
-	.btn-orange:hover {
+	/* .btn-orange:hover {
 		background-color: #ff717e;
 	}
 	.l-wrapper {
@@ -2142,8 +2049,8 @@ footer .footer_link a:before {
 	.about__text {
 		width: 389px;
 		margin-bottom: 28px;
-	}
-	.about__card {
+	} */
+	/* .about__card {
 		padding: 21px 20px;
 		width: 860px;
 		margin: 0 auto;
@@ -2181,8 +2088,8 @@ footer .footer_link a:before {
 		width: 30px;
 		height: 30px;
 		right: 10px;
-	}
-	.follow_btn .btn_sp a:hover {
+	} */
+	/* .follow_btn .btn_sp a:hover {
 		background-image: linear-gradient(#e6606b, #e6606b);
 		box-shadow: none;
 		transform: translateY(4px);
@@ -2217,9 +2124,8 @@ footer .footer_link a:before {
 	}
 	.follow_btn--kosodate .main_txt span {
 		font-size: 27px;
-	}
-
-	#info .telBox .info1 {
+	} */
+	/* #info .telBox .info1 {
 		color: #615140;
 	}
 	#info .telBox .info1 .tel .telTtl {
@@ -2227,7 +2133,7 @@ footer .footer_link a:before {
 	}
 	#info .telBox .info1 li:nth-child(2) {
 		padding: 0 40px;
-	}
+	} */
 	footer {
 		background-color: #f5f5f5;
 		padding-bottom: 158px;
@@ -2236,10 +2142,258 @@ footer .footer_link a:before {
 	}
 }
 
-/* ---------------------------
-共通 / mv画像の配置
---------------------------- */
-/* .center-align ：　mvのタイトルが真ん中にある場合　*/
+/* ====================================================================
+* btn
+*
+*
+* -------------------------------------------------------------------- */
+.btn_job_entry {
+	height: 56px;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 100px;
+	text-align: center;
+	width: 87%;
+	font-size: 20px;
+	box-sizing: border-box;
+	margin-bottom: 14px;
+	position: relative;
+}
+.btn_job_entry a {
+	display: block;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 12px 0 12px 36px;
+	font-size: 16px;
+	width: 100%;
+	background-color: #051a2b;
+	border-radius: 300px;
+	overflow: revert;
+}
+.btn_job_entry a::after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	width: 0;
+	height: 0;
+	margin-top: -5px;
+	border: 5px solid transparent;
+	border-left: 5px solid #fff;
+}
+.btn_job_entry:hover {
+	transition-duration: 0.3s;
+	opacity: 0.7;
+	transition-delay: 0.6s;
+}
+.btn-entry {
+	position: relative;
+	display: inline-block;
+	margin: 0px auto;
+	width: 100%;
+	max-width: 558px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 0.06em;
+	border-radius: 300px;
+	background: #051a2b;
+	font-size: 13px;
+}
+.btn-entry span {
+	padding: 6px 10px;
+	border-radius: 30px;
+	background: #e21c1c;
+	margin-right: 4px;
+}
+.register a {
+	position: relative;
+}
+.register p {
+	padding: 0.8em 1.8em 0.8em 5.3em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+	box-sizing: border-box;
+	background-color: #051a2b;
+	border-radius: 30px;
+}
+.register .btn {
+	position: relative;
+	padding: unset;
+	line-height: unset;
+	color: white;
+	background: none;
+	box-shadow: none;
+}
+.register .btn::after {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	transition: all 0.3s ease-out;
+	border-radius: 100px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+.register .free {
+	position: absolute;
+	z-index: 1;
+	padding: 18px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1;
+	background: center / 86px no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_back.svg);
+	border-radius: 521px;
+	top: -29px;
+	left: 17px;
+	transform: rotate(340deg);
+}
+.register .free::after {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 39px;
+	background: center / 34px no-repeat url(/mn_kaigoshoku/assets/images/support/special/facilitytype/free_deco.svg);
+	right: -11px;
+}
+@media only screen and (max-width: 767px) {
+	.btn_job_entry {
+		width: 90%;
+	}
+	.btn_job_entry a {
+		font-size: 13px;
+		padding: 12px 16px 12px 57px;
+	}
+	.btn_job_entry a::after {
+		display: none;
+	}
+}
+@media only screen and (max-width: 374px) {
+	.register .btn {
+		width: 90%;
+		border-radius: 600px;
+	}
+	.register p {
+		font-size: 16px;
+		padding: 1em 0 1em 3.5em;
+	}
+	.register .free {
+		padding: 13px;
+		top: -17px;
+		left: 10px;
+		font-size: 14px;
+		background-size: 21vw;
+	}
+	.register .free::after {
+		background-size: 10vw;
+		right: -14px;
+		bottom: -7px;
+	}
+	.btn_job_entry a {
+		font-size: 10px;
+	}
+	.btn_job_entry a::after {
+		display: none;
+	}
+}
+
+/* --------------------------------------------------------------------
+* #page-top
+* -------------------------------------------------------------------- */
+#page-top {
+	position: fixed;
+	z-index: 10000;
+	right: 10px;
+	bottom: 10px;
+	width: 60px;
+	height: 60px;
+}
+#page-top a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	overflow: hidden;
+	width: 60px;
+	height: 60px;
+	text-decoration: none;
+	text-indent: -9999px;
+	border-radius: 50%;
+	background: #051a2b;
+	filter: invert(1);
+}
+#page-top a:before {
+	position: absolute;
+	top: 42%;
+	left: 36%;
+	width: 18px;
+	height: 18px;
+	content: '';
+	border-left: 2px solid #fefffd;
+	border-top: 2px solid #fff;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+@media only screen and (max-width: 767px) {
+	#page-top {
+		bottom: 98px;
+	}
+}
+/* --------------------------------------------------------------------
+* floating
+* -------------------------------------------------------------------- */
+.floating {
+	position: fixed;
+	z-index: 1000;
+	bottom: 62px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.floating .btn-wrap {
+	width: 100%;
+	max-width: 558px;
+	margin: 0 auto;
+}
+.floating .btn-entry::after {
+	width: 22px;
+	height: 14px;
+	background-size: 1.2rem;
+}
+@media only screen and (max-width: 767px) {
+	.floating {
+		bottom: 20px;
+		padding: 0;
+	}
+	.floating .btn-wrap {
+		max-width: 450px;
+	}
+}
+@media only screen and (max-width: 374px) {
+	.floating .btn-entry::after {
+		display: none;
+	}
+}
+
+/* ====================================================================
+* 共通 / mv画像の配置
+*
+*
+* -------------------------------------------------------------------- */
+/* --------------------------------------------------------------------
+*   .center-align ：　mvのタイトルが真ん中にある場合
+* -------------------------------------------------------------------- */
 .center-align .mv-title {
 	position: absolute;
 	display: flex;
@@ -2257,7 +2411,6 @@ footer .footer_link a:before {
 .center-align .main .main-inner {
 	height: 165px;
 }
-
 .center-align .mv-title::before {
 	position: absolute;
 	content: '';
@@ -2300,7 +2453,9 @@ footer .footer_link a:before {
 .center-align #merit .merit-item h2 {
 	bottom: 81px;
 }
-/* .square ：　mvの画像が四角い場合　*/
+/* --------------------------------------------------------------------
+*   .square ：　mvの画像が四角い場合　
+* -------------------------------------------------------------------- */
 .square .mv_image01 {
 	position: absolute;
 	width: 23vw;
@@ -2327,7 +2482,6 @@ footer .footer_link a:before {
 	bottom: -140px;
 }
 @media only screen and (max-width: 767px) {
-	/* .center-align  */
 	.center-align .main {
 		height: 522px;
 	}
@@ -2392,7 +2546,6 @@ footer .footer_link a:before {
 	.center-align #merit .merit-item h2 {
 		bottom: 97px;
 	}
-	/* square */
 	.square .main {
 		height: 518px;
 	}
@@ -2459,82 +2612,5 @@ footer .footer_link a:before {
 	}
 	.center-align .mv-title::before {
 		bottom: 4px;
-	}
-}
-
-/* page-top */
-#page-top {
-	position: fixed;
-	z-index: 10000;
-	right: 10px;
-	bottom: 10px;
-	width: 60px;
-	height: 60px;
-}
-#page-top a {
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: block;
-	overflow: hidden;
-	width: 60px;
-	height: 60px;
-	text-decoration: none;
-	text-indent: -9999px;
-	border-radius: 50%;
-	background: #051a2b;
-	filter: invert(1);
-}
-#page-top a:before {
-	position: absolute;
-	top: 42%;
-	left: 36%;
-	width: 18px;
-	height: 18px;
-	content: '';
-	border-left: 2px solid #fefffd;
-	border-top: 2px solid #fff;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
-@media only screen and (max-width: 767px) {
-	#page-top {
-		bottom: 98px;
-	}
-}
-
-/* floating */
-.floating {
-	position: fixed;
-	z-index: 1000;
-	bottom: 62px;
-	left: 0;
-	width: 100%;
-	/* padding: 0 15px; */
-	text-align: center;
-}
-.floating .btn-wrap {
-	width: 100%;
-	max-width: 558px;
-	margin: 0 auto;
-}
-.floating .btn-entry::after {
-	width: 22px;
-	height: 14px;
-	background-size: 1.2rem;
-}
-@media only screen and (max-width: 767px) {
-	.floating {
-		bottom: 20px;
-		padding: 0;
-	}
-	.floating .btn-wrap {
-		max-width: 450px;
-	}
-}
-@media only screen and (max-width: 374px) {
-	.floating .btn-entry::after {
-		display: none;
 	}
 }
