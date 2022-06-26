@@ -14,14 +14,10 @@
 *   ## toc : table of contents
 *   ## how
 *   ## worries
-
 *   ## merit
 *   ## voice
 *   ## reliability マイナビ保育士の信頼性
 *   ## flow 
-
-* # worries
-* # merit 
 
 ==================================================================== */
 
@@ -2907,6 +2903,7 @@ label.accordion-open span {
 	}
 	#service-first #flow .flow__wrap #f-speed {
 		margin-bottom: 12px;
+		border: 2px solid #b0e6e6;
 	}
 	#service-first #flow .flow__wrap .speed h3::after {
 		background-size: 35px;
@@ -3016,12 +3013,16 @@ label.accordion-open span {
 		left: 18px;
 		border-radius: 0;
 	}
+	#service-first #flow .flow__wrap .speed {
+		border: 2px solid #b6f8f8;
+	}
 	#service-first #flow .flow__wrap .speed .success {
 		background: #b6f8f8;
 		border-radius: 0 0 12px 12px;
 	}
 	#service-first #flow .flow__wrap .slowly {
 		background: #fff0e2;
+		border: 2px solid var(--orange3);
 	}
 	#service-first #flow .flow__wrap .slowly .success {
 		background: #ffe1c4;
@@ -3138,6 +3139,19 @@ label.accordion-open span {
 	}
 	#service-first #flow .slowly .cp_box label:after {
 		border-color: var(--orange3);
+	}
+	#service-first #flow .speed .cp_box::after,
+	#service-first #flow .slowly .cp_box::after {
+		content: '';
+		position: absolute;
+		bottom: -27px;
+		border: 16px solid transparent;
+		border-top: 12px solid #e0fffe;
+		left: 48%;
+		z-index: 1;
+	}
+	#service-first #flow .slowly .cp_box::after {
+		border-top: 12px solid #fff0e2;
 	}
 	#service-first #flow .cp_box label::before {
 		right: 383px;
