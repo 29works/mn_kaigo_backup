@@ -521,7 +521,7 @@ h2.heading strong {
 .cf_anim img {
 	width: 50px;
 }
-@-webkit-keyframes car_loop {
+@keyframes car_loop {
 	0% {
 		-webkit-transform: translate(2500px, 0px);
 		transform: translate(2500px, 0px);
@@ -1142,6 +1142,7 @@ h2.heading strong {
 #service-first #worries {
 	background: bottom var(--gray3) url(images/service-first2-bg.png) repeat-x;
 	background-size: 950px;
+	overflow: hidden;
 }
 #service-first #worries .heading {
 	position: relative;
@@ -2824,7 +2825,9 @@ label.accordion-open span {
 #service-first #flow input[type='checkbox'] {
 	display: none;
 }
-
+#service-first #flow .cp_box label::before {
+	display: none;
+}
 @media only screen and (min-width: 640px) {
 	#service-first #flow .flow__item label[for] {
 		cursor: auto;
