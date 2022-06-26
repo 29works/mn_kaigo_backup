@@ -1,0 +1,42 @@
+.imgBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 160px;
+	overflow: hidden;
+}
+.imgBox img {
+	height: auto;
+}
+p.contentBox {
+    margin-left: 20px;
+}
+.linkBox {
+	display: block;
+}
+.linkBox a{
+	display: inline-block;
+	margin-top: 25px;
+	color:#3372d9;
+	text-decoration: underline;
+}
+.linkBox:after {
+	content: "";
+	background: url("../../images/corporate/link_icon.png") no-repeat;
+	background-position: 2px 2px;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+
+@media screen and (max-width:768px){
+.imgBox {
+	height: 90px;
+}
+.imgBox img {
+	width:80%;
+}
+p.contentBox {
+    margin: 10px;
+}
+}
